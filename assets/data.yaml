@@ -1,0 +1,2568 @@
+def:
+  logo: assets/def/logo.svg
+  en: assets/def/logo-en.svg
+  left: assets/def/left.svg
+  right: assets/def/right.svg
+  exit: assets/def/exit.svg
+
+heads:
+  client:
+    title: Horizon Robotics 
+    ch: 地平线生态合作伙伴
+    en: Ecosystem Partners
+    icon: assets/icon/logo-coop.svg
+  roadmap:
+    title: Horizon Journey®
+    ch: 地平线征程®系列汽车智能芯片
+    en: Automotive-grade AI computing processor
+    icon: assets/icon/icon-roadmap.svg
+  hardware:
+    - title: Horizon Matrix®
+      ch: 合作伙伴解决方案
+      en: Partner Solutions
+      icon: assets/icon/icon-hardware.svg
+      text: 自动驾驶 # 滑动的btn
+      mode: 0
+    - title: Horizon Halo™ 
+      ch: 合作伙伴解决方案
+      en: Partner Solutions
+      icon: assets/icon/icon-hardware.svg
+      text: 车载智能交互
+      mode: 1
+    - title: Horizon Matrix 
+      ch: 自动驾驶计算平台
+      en: Autonomous Driving Computing Platform
+      icon: assets/icon/icon-matrix.svg
+      text: false
+      mode: 2
+  player:
+    - name: player_em
+      title: Horizon OpenExplorer®
+      ch: 地平线天工开物®AI开发平台
+      en: AI Toolkit
+      icon: assets/icon/icon-player.svg
+      mode: 0
+    - name: player_aidi
+      title: Horizon AIDI™
+      ch: 地平线艾迪™数据闭环开发平台
+      en: Data -Driven AI Development Platform
+      icon: assets/icon/icon-player-aidi.svg
+      mode: 1
+    - name: player_intro
+      title: Horizon Robotics
+      ch: 地平线信息中心
+      en: Media Center
+      icon: assets/icon/icon-player-media.svg
+      mode: 2
+  video:
+    - name: video_auto # 需要字体 BebasNeue
+      title: Horizon Matrix® 
+      ch: 智能驾驶解决方案
+      en: Autonomous Driving Solution
+      mode: 0 # 仅作为提示，修改不生效
+      visual: 0 # 视觉id
+      icon: assets/icon/icon-driving.svg
+      detail: Horizon Matrix® 智能驾驶解决方案面向L2-L4级别自动驾驶，提供一站式可选产品解决方案，强大视觉感知能力和AI算力支持，更结合端云一体开发平台赋能的快速迭代能力，助力客户加速实现自动驾驶量产落地。
+    - name: video_halo # 需要字体 BebasNeue
+      title: Horizon Halo™  
+      ch: 车载智能交互解决方案
+      en: Intelligent in-cabin HMI Solution
+      mode: 1
+      visual: 3
+      icon: assets/icon/icon-halo.svg
+      detail: Horizon Halo™ 智能交互解决方案搭载强大感知计算能力和多模态车载AI技术，开创性实现主动式人机交互功能，并可协同多元化的应用服务生态，打造不断成长的极致座舱体验，支持车企打造差异化功能。
+    - name: video_over # 需要字体 BebasNeue
+      title: Horizon Robotics 
+      ch: 整车智能
+      en: Overall intelligence
+      mode: 2
+      visual: 2
+      icon: assets/icon/icon-robot.svg
+      detail: 地平线车内外联动解决方案融合了车外视觉感知、车内视觉感知、车内语音感知的三重能力，使汽车能够基于场景化的语义理解去识别用户意图并理解人的行为和习惯，从而主动介入驾驶决策，突破了原有机器主动或者人主动的单一性，实现自然顺滑的人机共驾。在场景应用中，通过机器主动告知或者询问用户自动驾驶下一步策略，使人建立更好的心理安全，更懂机器的决策与执行，以不断优化人机共驾体验。
+    - name: video_omni # 需要字体 BebasNeue
+      title: Horizon Omni™ 
+      ch: 车路协同
+      en: Roadside visual perception solution
+      mode: 3
+      visual: 1
+      icon: assets/icon/icon-omni.svg
+      detail: Horizon Omni™是基于地平线的征程和旭日系列芯片，打造的车路协同路侧视觉感知方案，能够在低功耗的情况下，进行低延时的道路细粒度动态目标感知定位，超前赋能L2+应用。整个方案使用与车侧相同的调试接口，能够快速进行车路打通，赋能更高级别的自动驾驶。
+
+
+# video 
+videos_gp:
+  #mode0 智能驾驶
+  #mode0 智能驾驶
+  - name: 单目前视感知解决方案
+    sub_title: Mono
+    key: mono
+    mode: 0
+    tag: # tag
+      - 征程2
+      - 征程3
+    fun: 前视辅助驾驶 | 定位 | 建图
+    children: []
+    detail: Mono是面向前视ADAS市场的全球领先单目前视解决方案，包含适配L0-L2的Mono 2，以及适配L2+的Mono 3系列产品。可在低于100毫秒的延迟下有效感知车辆、行人、车道线、交通标识、红绿灯等多种目标，Mono 3 加入高精度视觉定位与建图功能支持。
+  - name: 领航辅助驾驶解决方案
+    sub_title: Pilot
+    key: pilot
+    mode: 0
+    tag: # tag
+      - 征程3
+    fun: 高速领航辅助驾驶
+    children: []
+    detail: Horizon Matrix Pilot3.0（地平线 Matrix 领航辅助驾驶解决方案，简称 Pilot3.0）是 基于地平线征程三代芯片的视觉中心化智能驾驶解决 方案。Pilot3.0 可为前装 L2+ 到 L3 的 ADAS/AD 市场提供基于多相机的 360°视 觉感知能力，以及相应的视觉定位、视觉建图、预测、决策、规划等能力。
+  - name: 自动驾驶解决方案
+    sub_title: FSD
+    key: fsd
+    mode: 0
+    tag: # tag
+     - 征程5
+    fun: 高速+城区自动驾驶
+    children: []
+    detail: Horizon Matrix® FSD采用地平线Matrix 2 自动驾驶计算平台，面向多层次、多场景的未来自动驾驶，搭载地平线征程芯片，具备极致性能与高可靠性，可满足L2～L4级别自动驾驶需求，为自动驾驶客户提供感知层的深度赋能。<br>基于地平线征程5高端车规级 AI 芯片，地平线自动驾驶解决方案可为应用场景提供更高的算力，更丰富强大的配件接口，更安全高效的功能等级，为自动驾驶落地提供更多可能性。
+  
+ #mode1 智能交互
+  - name: 智能交互
+    sub_title: 智能交互
+    key: halo
+    mode: 1
+    tag: # tag
+      - 征程2
+    fun: 车载人机交互 | 多音区
+    children: []
+    detail: 地平线从车载用户使用场景出发，结合对车载智能交互算法的深刻理解和行业趋势的把握，通过底层AI芯片与算法+场景功能完美融合，精准解决用户在车载场景中的使用痛点；并创新性的通过多模态融合技术，在智能座舱领域首次实现人机主动交互功能，已落地视线亮屏、分心提醒、疲劳监测、智能语音拍照等车载智能交互功能，为用户带来更加安全、智能的驾乘体验。
+
+  - name: 多模语音
+    sub_title: 多模语音
+    key: command
+    mode: 1
+    tag: # tag
+      - 征程2
+    fun: 车内语音交互
+    children: []
+    detail: 地平线多模语音技术栈自2018年启动研发开始，持续引领行业认知。在多人说话，高噪声场景中，多模语音方案结合DMS IMS摄像头，能结合视觉唇语进行准确识别，并结合人脸 ID 解决了谁在什么时间说了什么的问题，极大地拓展了舱内语音交互的可能性。
+
+  - name: 舱内深度光流
+    sub_title: 舱内深度光流
+    key: flow
+    mode: 1
+    tag: # tag
+      - 征程2
+    fun: 车内基础算法
+    children: []
+    detail: 地平线深度光流方案基于地平线车规级征程系列芯片，进行舱内视觉动态的精细建模，在视频基础上对于人的微表情，微唇动等细微行为变化进行实时捕捉，赋能座舱视觉及多模语音算法持续升级，实现地平线舱内感知算法，如行为识别，视线追踪，多模语音，疲劳监测，健康监测，情绪识别，活体检测等算法精度的持续引领。
+
+
+ #mode2 整车智能
+  - name: 车内外联动方案
+    sub_title: 解决方案
+    key: overall
+    mode: 2
+    tag: # tag
+      - 征程2
+      - 征程3
+    fun: 整车智能
+    children: []
+    detail: 智能辅助驾驶和智能座舱人机交互应用协同整合，向整车智能发展，是不可逆的趋势。Horizon Matrix® 自动驾驶解决方案，Horizon Halo™ 智能交互解决方案，以及地平线车内外联动解决方案共同构成了地平线全场景整车智能方案，融合车内外智能，让自动驾驶更可靠、人机交互更自然。
+
+
+ #mode3 车路协同
+  - name: 车路协同路侧感知方案
+    sub_title: 解决方案
+    key: omni
+    mode: 3
+    tag: # tag
+      - 征程2
+      - 征程3
+    fun: 车路协同路端感知
+    children: []
+    detail: Horizon Omni™是基于地平线的征程和旭日系列芯片，打造的车路协同路侧视觉感知方案，能够在低功耗的情况下，进行低延时的道路细粒度动态目标感知定位，超前赋能L2+应用。整个方案使用与车侧相同的调试接口，能够快速进行车路打通，赋能更高级别的自动驾驶。
+
+video_def:
+  # - pos: [1500, 600]
+  #   class: one
+  #   data:
+  #     - 面向<span class='big'>中国特色</span>交通/行人场景的专项性能优化
+  #     - 成熟的AI算法和软件模块<span class='big'>灵活配置</span>，缩短产品开发周期
+  #     - 可支持高精度视觉融合定位与建图功能，实现功能提升
+  # - pos: [570, 1400]
+  #   class: two
+  #   data:
+  #     - 基于国产AI芯片的<span class='big'>高性价比</span>解决方案
+  #     - 完善的量产验证，降低投入风险
+  #     - 自主可控，从源头保障数据安全、功能安全
+  - class: three
+    data: 智能驾驶解决方案面向L2-L4级别自动驾驶，提供一站式可选产品解决方案，强大视觉感知能力和AI算力支持，更结合端云一体开发平台赋能的快速迭代能力，助力客户加速实现自动驾驶量产落地。
+  - class: three
+    data: Horizon Halo™ 智能交互解决方案搭载强大感知计算能力和多模态车载AI技术，开创性实现主动式人机交互功能，并可协同多元化的应用服务生态，打造不断成长的极致座舱体验，支持车企打造差异化功能。
+
+videos:
+  # key-mono
+  - name: Mono2.0单目前视感知解决方案
+    en: Mono-camera ADAS Solution
+    key: mono
+    type: Horizon Journey® 2 AI Processor  #左1-右上角标
+    config: 已量产 #左1-左下角文案
+    slogan: 首个基于国产AI芯片的ADAS量产方案 # 左下1
+    core: 高性价比方案，主打volume车型，打造更安全的日常出行 # 左下2
+    per: #中下
+      - 10类动态目标感知
+      - 53类静态目标感知
+      - 12类语义分割
+      - 关键区域检测率>99.8%
+    fun: #右上
+      - L0-L2 ADAS功能(ACC、AEB、LKA、TJA)
+      - 2MP Camera@100° FOV
+    detail: Mono2.0是面向前视ADAS市场的全球领先单目解决方案，可在低于100毫秒的延迟下有效感知车辆、行人、车道线、交通标识、红绿灯等多种目标。<br>• 基于国产AI芯片的高性价比解决方案<br>• 面向复杂的量产功能场景的性能提升<br>• 针对中国交通/行人场景的专项优化
+    vbtn:
+      - name: mono2.0
+        src: assets/video/mono特.webm
+  - name: Mono3.0单目前视感知解决方案
+    en: Mono-camera ADAS Solution
+    key: mono
+    type: Horizon Journey® 3 AI Processor  #左1-右上角标
+    config: 2021 年 Q2 量产 #左1-左下角文案
+    slogan: 全球首个8MP前视ADAS量产方案 # 左下1
+    core: 高性能方案，主打精英车型，更舒适的驾驶体验 # 左下2
+    per: #中下
+      - 多达10类动态目标感知
+      - 支持100类+静态目标感知
+      - 拓展16类语义分割 
+      - 关键区域检测率>99.8%
+      - 视觉融合定位误差<10cm
+      - 视觉建图误差<10cm
+    fun: #右上
+      - L2+ADAS功能（NOA:自动上下匝道、主动变道、智能调速）
+      - 8MP Camera@120° FOV
+    detail: Mono3.0是全球首个8MP前视ADAS量产方案，可在低于100毫秒的延迟下有效感知车辆、行人、车道线、交通标识、红绿灯等多种目标。新增高精度视觉定位与建图功能支持，可满足L2+高级别辅助驾驶功能需求。
+    vbtn:
+      - name: mono3.0
+        src: assets/video/mono.webm
+  #key-pilot
+  - name: 领航辅助驾驶解决方案_感知
+    en: Navigate on Automatic-Pilot Solution
+    key: pilot
+    type: Horizon Journey® 3 AI Processor x 3  #左1-右上角标
+    config: #左1-左下角文案
+    slogan: 国内首个可对客户量产交付的NOA # 左下1
+    core: 视觉中心化方案，AI赋能+软件定义，加速方案迭代 # 左下2
+    per: #中下
+      - 360°视觉感知全覆盖
+      - 8MP/2MP相机配置，高性能兼顾低成本
+      - 架构可伸缩，满足高中低车载场景
+    fun: #右上
+      - L2+ADAS功能（NOA：自主变道、自主超车、自动上下闸道、城区ICA）
+      - 8MP Camera@120° FOV x 1
+      - 2MP Camera@100° FOV x 5 
+    detail: Pilot3.0是面向前装ADAS/AD市场的视觉中心化智能驾驶解决方案。在软件/算法层面，通过选定外围摄像头模组规格，形成统一的智能驾驶软件平台；硬件层面，也遵循统一的芯片组合架构，可通过增减SOC的方式形成前视感知、360°视觉感知及智能驾驶系统等不同系列，其中双J3实现6V纯感知，三J3实现完整NOA智驾功能。
+    vbtn:
+      - name: 6V
+        src: assets/video/6V感知（不带语义）终.webm
+      - name: 6V_Parsing
+        src: assets/video/6V感知（语义）终.webm
+  - name: 领航辅助驾驶解决方案_NOA
+    en: Navigate on Automatic-Pilot Solution
+    key: pilot
+    type: Horizon Journey® 3 AI Processor x 3  #左1-右上角标
+    config:  #左1-左下角文案
+    slogan: 国内首个可对客户量产交付的NOA # 左下1
+    core: 视觉中心化方案，AI赋能+软件定义，加速方案迭代 # 左下2
+    per: #中下
+      - 360°视觉感知全覆盖
+      - 8MP/2MP相机配置
+      - 高性能兼顾低成本
+      - 架构可伸缩
+      - 满足高中低车载场景
+    fun: #右上
+      - L2+ADAS功能（NOA：自主变道、自主超车、自动上下闸道、城区ICA）
+      - 8MP Camera@120° FOV * 1
+      - 2MP Camera@100° FOV * 5
+    detail: Pilot3.0是面向前装ADAS/AD市场的视觉中心化智能驾驶解决方案。在软件/算法层面，通过选定外围摄像头模组规格，形成统一的智能驾驶软件平台；硬件层面，也遵循统一的芯片组合架构，可通过增减SOC的方式形成前视感知、360°视觉感知及智能驾驶系统等不同系列，其中双J3实现6V纯感知，三J3实现完整NOA智驾功能。
+    vbtn:
+      # - name: 一镜到底
+      #   src: assets/video/一镜到底.webm
+      - name: 典型场景
+        src: assets/video/典型场景2.30.webm        
+
+  #key-fsd
+  - name: 自动驾驶解决方案 
+    en: "Full Self-Driving Solution"
+    key: fsd
+    type:  Horizon Journey® 5 AI Processor #左1-右上角标
+    config:  #左1-左下角
+    slogan: 全新一代征程5AI芯片 # 左下1#大屏
+    core: 全新算法技术路线，支持复杂城区场景 # 左下2#大屏
+    per: #中下#大屏
+      - 端上独有的挖掘算法
+      - 自主的关键场景挖掘系统
+      - 实时对比历史推理和当前状况
+      - 上传最有价值的场景数据
+    fun: #右上
+      - 遮挡补全，端上实时环境感知建图
+      - 多摄像头端到端融合，神经网络原生输出俯视图
+      - 全面提升复杂路况感知能力（如弯道）
+      - 降低高精地图依赖，加速规模落地
+    detail: Horizon Matrix® FSD采用地平线Matrix 2 自动驾驶计算平台，面向多层次、多场景的未来自动驾驶，搭载地平线征程芯片，具备极致性能与高可靠性，可满足L2～L4级别自动驾驶需求，为自动驾驶客户提供感知层的深度赋能。基于地平线 征程5 高端车规级 AI 芯片，地平线自动驾驶解决方案可为应用场景提供更高的算力，更丰富强大的配件接口，更安全高效的功能等级，为自动驾驶落地提供更多可能性。
+    vbtn:
+      - name: BEV
+        src: assets/video/FSD.webm
+
+
+  #key-omni
+  - name: V2X场景展示
+    en: 
+    key: omni
+    type: Horizon Journey® 2/3 AI Processor #左1-右上角标
+    config: #左1-左下角文案
+    slogan: 车路融合，赋能更高级别的自动驾驶 # 左下1
+    core: 高性能方案配合快速验证平台 # 左下2
+    per: #中下
+      - 百毫秒级别响应
+      - 感知全部交通参与者实时信息
+      - 提供精确的定位
+    fun: #右上
+      - 高速：汇入汇出闸道、隧道、施工变道、弯道
+      - 城区：十字路口、鬼探头场景
+    detail: Horizon Omniview是基于地平线的征程和旭日系列芯片，打造的车路协同路侧视觉感知方案，能够在低功耗的情况下，进行低延时的道路细粒度动态目标感知定位，超前赋能L2+应用。高性能方案配合快速验证平台，加速落地；覆盖长尾场景，提供更舒适更安全的驾驶体验。
+    vbtn:
+      - name: 环保园场景
+        src: assets/video/V2X2.webm
+  - name: 感知能力展示
+    en: 
+    key: omni
+    type: Horizon Journey® 2/3 AI Processor #左1-右上角标
+    config:  #左1-左下角文案
+    slogan: 高性能路侧感知方案 # 左下1
+    core: 赋能更高级别的自动驾驶 # 左下2
+    per: #中下#大屏
+      - 支持车辆/骑车人/行人定位
+      - 支持测速、航向角输出
+      - 支持≤100米动态目标检测
+      - 支持五种车辆类别的分类
+      - 支持车道线的检测
+    fun: #右上
+      - 高速场景：汇入汇出闸道、隧道、施工变道、弯道
+      - 城区场景：十字路口、鬼探头场景      
+      - 准确率晴天/阴天/白天>99%
+      - 召回率晴天/阴天/白天>95%
+    detail: Horizon Omniview能够支持精确的细粒度动态目标的感知定位。<br>响应时间100ms<br>同时识别超过30个目标<br>典型功耗2W<br>20fps的数据提供速度<br>结合地图快速部署<br>开放的策略接入
+    vbtn:
+      - name: 路侧感知
+        src: assets/video/地平线车路协同路侧感知方案.webm
+  - name: 验证平台展示
+    en: 
+    key: omni
+    type: Horizon Journey® 2/3 AI Processor #左1-右上角标
+    config:  #左1-左下角文案
+    slogan: 快速部署 # 左下1
+    core: 快速打通车路融合 # 左下2
+    per: #中下
+      - 800万像素
+      - 焦距10-100mm
+      - 支持高度5～8m
+      - 超低照度支持
+    fun: #右上
+      - 统一架构设计，方便自定义硬件
+      - 符合交通要求，路测快速部署
+      - 内部累计打通方案，方便效果快速展现
+      - 车侧相同调试接口，快速车路数据打通
+    detail: Horizon Omniview提供验证平台，支持快速部署，快速打通车路融合<br>内部累积打通方案，方便效果快速展现<br>符合交通要求，路侧快速部署<br>车侧相同调试接口，快速车路数据打通
+  - name: 白盒赋能展示
+    en: 
+    key: omni
+    type: Horizon Journey® 2/3 AI Processor #左1-右上角标
+    config:  #左1-左下角文案
+    slogan: 开放方案 # 左下1
+    core: 扩展更多可能性 # 左下2
+    per: #中下
+      - 芯片工具链
+      - 训练环境、代码及使用说明文档
+      - 应用demo
+      - 提供参考算法
+    fun: 
+      - 视觉参考算法：1）车辆、汽车人、行人检测模型；2）车牌识别；3）车型分类；4）车颜色识别；5）目标跟踪
+      - 激光雷达参考算法：1）车辆、汽车人、行人检测模型；2）车型分类；3）支持16/32/40/64线机械式和固态激光雷达
+    detail: Horizon Omniview为客户提供白盒赋能，开放方案，扩展更多可能性。<br>开放视觉与激光雷达参考算法代码与模型<br>开放模型调度软件，方便客户快速工程化集成<br>芯片工具链支撑客户快速向更多应用场景落地<br>算法培训帮助客户快速上手
+ 
+ #key-overall
+  - name: 车内外联动解决方案
+    en: 
+    key: overall
+    type: Horizon Journey® 2/3 AI Processor #左1-右上角标
+    config: #左1-左下角文案
+    slogan: 突破人/机单一的主动性 # 左下1
+    core: 实现自然顺滑的人机共驾 # 左下2
+    per: #中下
+      - 全场景整车智能
+    fun: #右上
+      - 车外视觉感知
+      - 车内视觉感知
+      - 车内语音感知
+    detail: 地平线车内外联动解决方案融合了车外视觉感知、车内视觉感知、车内语音感知的三重能力，使汽车能够基于场景化的语义理解去识别用户意图并理解人的行为和习惯，从而主动介入驾驶决策，突破了原有机器主动或者人主动的单一性，实现自然顺滑的人机共驾。在场景应用中，通过机器主动告知或者询问用户自动驾驶下一步策略，使人建立更好的心理安全，更懂机器的决策与执行，以不断优化人机共驾体验。
+    vbtn:
+      # - name: 车内外联动
+      #   src: assets/video/车内外联动.webm
+
+#key-halo
+  - name: 车载智能交互
+    en: Intelligent in-cabin HMI Solution
+    key: halo
+    type: Horizon Journey® 2 AI Processor #左1-右上角标
+    config: 已量产 #左1-左下角文案
+    slogan: 智能车载交互行业领导者 # 左下1
+    core: 更加安全、智能的驾乘体验 # 左下2
+    per: #中下
+    fun: #右上
+      - 视线亮屏
+      - 分心提醒
+      - 疲劳监测
+      - 智能语音拍照
+    detail: 地平线创新性的通过多模态融合技术，在智能座舱领域首次实现人机主动交互，为用户提供视线亮屏、分心提醒、疲劳监测、智能语音拍照等车载人机交互功能，为用户带来更加安全、智能的驾乘体验。
+    vbtn:
+      - name: 长安Uni-T
+        src: assets/video/地平线多模态人车交互解决方案.webm
+  - name: 车载多音区解决方案
+    en: Multimodal Separated Sound Zone Technology
+    key: halo
+    type: Horizon Journey® 2 AI Processor #左1-右上角标
+    config: 已量产 #左1-左下角文案
+    slogan: 智能车载交互行业领导者 # 左下1
+    core: 打造更加精准的全车语音交互 # 左下2
+    per: #中下
+      - 4路人声分离
+      - 4路音区检测
+    fun: #右上
+      - 全车多路拾音
+      - 人声定位
+      - 降噪
+      - 回声消除和语音唤醒
+    detail: 地平线车载多音区交互技术，支持4路人声分离和6路音区检测。通过全车多路拾音、人声定位、降噪、回声消除和语音唤醒，打造更加精准的全车语音交互，此功能已在理想ONE量产。
+    vbtn:
+      - name: 理想ONE
+        src: assets/video/地平线车载多音区解决方案.webm
+  
+#key-command
+  # name: 多模多音区
+  # en: Multimodal Separated Sound Zone Technology
+  # key: command
+  # type: Horizon Journey® 2 AI Processor #左1-右上角标
+  # config: 2021 年 Q3 量产 #左1-左下角文案
+  # slogan: 全球首个融合视觉的舱内集中式两麦四音区方案 # 左下1
+  # core: 个性化服务 + 连贯交互 # 左下2
+  # per: #中下
+  #   - 唤醒率>95%
+  #   - 识别句准度>85%
+  #   - 音区定位准确率>95%
+  #   - 人声隔离率>85%
+  # fun: #右上
+  #   - 四音区定位
+  #   - 全车拾音
+  #   - 说话人追踪
+  # detail: 地平线多模多音区方案，首次在集中式两麦克风约束下，# 创造性地结合视觉信号实现四音区定位功能。同时支持全车拾音和人# 声隔离，锁定唤醒人的声音实现语音交互，乘客可以在全车范围内获# 得所属位置的个性化服务和连贯交互。
+  # vbtn:
+      #- name: 视频介绍
+      #  src: assets/video/车载智能交互解决方案-多模多音区.webm
+  - name: 多模命令词
+    en: Multimodal Command Recognition Technology
+    key: command
+    type: Horizon Journey® 2 AI Processor #左1-右上角标
+    config: 已量产 #左1-左下角文案
+    slogan: 全球首个量产的多模语音方案 # 左下1
+    core: 使用视觉和语音升级信号前端及识别后端 # 左下2
+    per: #中下
+      - 唤醒率>95%
+      - 识别句准度>85%
+      - 音区定位准确率>95%
+      - 人声隔离率>85%
+    fun: #右上
+      - 舱内命令词识别
+    detail: 地平线多模命令词是全球首次前装量产的多模语音方案，同时使用视觉和语音升级信号前端及识别后端，在高噪场景将命令词识别指标提升五倍的同时误报仅是基线的五分之一，解决了传统语音命令词误报高，效果差的问题。
+    vbtn:
+      - name: 多模命令词对标
+        src: assets/video/多模命令词对标.webm
+  - name: 多模语音分离
+    en: Multimodal Speech Separation Technology
+    key: command
+    type: Horizon Journey® 2 AI Processor #左1-右上角标
+    config: 2021 年 Q2 量产 #左1-左下角文案
+    slogan: 端上多模态目标人提取 # 左下1
+    core: 混叠声音极限场景 # 左下2
+    per: #中下
+      - 噪声干扰信噪比提升 
+      - SiSNRi ~ 23dB
+      - 人声干扰信噪比提升 
+      - SiSNRi ~ 12dB
+    fun: #右上
+      - 舱内说话人声提取
+    detail: 地平线多模语音分离解决方案，结合唇语语义提取混叠声音中人声信号，在混合人声，噪声，多人说话等极限场景上，多模语音分离方案都能产出稳定目标人声，极大程度拓展了语音算法能力的边界。
+    vbtn:
+      - name: 分离测试
+        src: assets/video/多模语音分离（旧片）2_.webm
+
+  - name: 多模离线语音识别
+    en: Multimodal Embedded Speech Recognition Technology
+    key: command
+    type: Horizon Journey® 2 AI Processor #左1-右上角标
+    config: 2021 年 Q3 量产 #左1-左下角文案
+    slogan: 多模离线语音识别方案 # 左下1
+    core: 支持多人同时识别 # 左下2
+    per: #中下
+      - 同时识别主副驾语音识别句准率>85%
+    fun: #右上
+      - 舱内多人交互
+    detail: 地平线多模离线语音识别方案，同时使用视觉和语音，在高干扰条件下仍能精准的提取目标人的语音，大幅提升语音识别性能。同时离线方案也从技术上解决用户数据隐私问题。
+    vbtn:
+      - name: 离线ASR
+        src: assets/video/离线ASR.webm 
+
+  - name: 多路并发离线语音识别
+    en: Multi-Channal Concurrent Embedded Speech Recognition Technology
+    key: command
+    type: Horizon Journey® 2 AI Processor #左1-右上角标
+    config: 2021 年 Q3 量产 #左1-左下角文案
+    slogan: 多路并发离线语音识别 # 左下1
+    core: 高性能离线语音识别方案 # 左下2
+    per: #中下
+      - 综合识别句准率>85%
+    fun: #右上
+      - 舱内多人交互
+    detail: 地平线多路并发离线语音识别方案，依靠高性能的人声分离技术与芯片超强算力，在车端同时准确识别车内多人说话的内容。
+    vbtn:
+      - name: 多路并发
+        src: assets/video/多路并发.webm
+ 
+#key-flow 
+  - name: 舱内深度光流
+    en: Multi-Channal Concurrent Embedded Speech Recognition Technology
+    key: flow
+    type: Horizon Journey® 2 AI Processor #左1-右上角标
+    config: 2021 年 Q3 量产 #左1-左下角文案
+    slogan: 全球首个舱内光流赋能方案 # 左下1
+    core: 赋能座舱视觉及多模语音算法持续升级 # 左下2
+    per: #中下
+      - EPE < 2
+    fun: #右上
+      - 实现算法精度的持续升级
+      - 1）舱内行为识别
+      - 2）视线追踪
+      - 3）多模语音
+      - 4）疲劳监测
+      - 5）健康监测
+      - 6）情绪识别
+      - 7）活体检测
+    detail: 地平线深度光流方案基于地平线车规级征程系列芯片，进行舱内视觉动态的精细建模，在视频基础上对于人的微表情，微唇动等细微行为变化进行实时捕捉，赋能座舱视觉及多模语音算法持续升级，实现地平线舱内感知算法。
+    vbtn:
+      - name: 舱内深度光流
+        src: assets/video/光流终.webm
+
+
+
+#key-flow
+
+# player 
+player: # 目录
+  - name: 方案介绍
+    mode: 0
+    detail: 地平线天工开物®AI开发平台(OpenExplorer®)是针对边缘AI 产品研发周期长、投入大、风险高等特点，打造从模型训练到芯片部署、端到端的AI开发平台。天工开物可提供开放易用的AI 芯片开发软件栈以及丰富场景算法仓库，支持合作伙伴更快、更省、更高效地完成AI 产品与应用落地，构筑差异化能力，建立自己的护城河。 
+    page: true
+    ppt:
+      - src: 'assets/player/天工开物/天工开物01.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物02.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物03.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物04.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物05.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物06.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物07.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物08.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物09.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物10.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物11.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物12.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物13.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物14.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物15.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物16.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物17.jpeg'
+        type: img
+    slogan: AI 全生命周期开发平台 # 宣传语
+    core: 更快、更省、更高效完成场景应用落地 # 宣传语2
+    per: # 性能指标：极限5条，横向长度15个字符
+      - 便捷开发，统一算法和应用开发框架
+      - 资源丰富，含开箱即用的产品算法
+      - 灵活高效，适配业界流行算法框架
+      - 强大的地平线开发者社区，提供丰富资源和交流平台
+    fun: 模型仓库 | 芯片工具链 | 应用开发中间件  #功能
+  - name: APA场景
+    mode: 0
+    detail: 基于Horizon Journey® 3的泊车解决方案是面向前装市场的视觉中心化解决方案，该方案不仅可以实现更高级别的自主泊车，实现不同类型车位识别和多种障碍物感知，还可以与前视感知、周视感知、车内多模感知进行不同组合，形成更加丰富立体的综合解决方案。 
+    page: true
+    ppt:
+      - src: 'assets/player/天工开物/幻灯片01.png'
+        type: img
+      - src: 'assets/player/天工开物/幻灯片02.png'
+        type: img
+      - src: 'assets/player/天工开物/幻灯片03.png'
+        type: img
+      - src: 'assets/player/天工开物/幻灯片04.png'
+        type: img
+      - src: 'assets/player/天工开物/幻灯片05.png'
+        type: img
+      - src: 'assets/player/天工开物/幻灯片06.png'
+        type: img
+      - src: 'assets/player/天工开物/幻灯片07.png'
+        type: img
+      - src: 'assets/player/天工开物/幻灯片08.png'
+        type: img
+      - src: 'assets/player/天工开物/幻灯片09.png'
+        type: img
+      - src: 'assets/player/天工开物/幻灯片10.png'
+        type: img
+      - src: 'assets/player/天工开物/幻灯片11.png'
+        type: img
+      - src: 'assets/player/天工开物/幻灯片12.png'
+        type: img
+      - src: 'assets/player/天工开物/幻灯片13.png'
+        type: img
+    slogan: Horizon Journey® 3高级别自主泊车解决方案 # 宣传语
+    core: ，让泊车更智能 # 宣传语2
+    per: # 性能指标：极限5条，横向长度15个字符
+      - 基于国产AI芯片的高性价比解决方案
+      - 更高算力，同时进行原图检测和俯视图检测
+      - 承载更多AI算法，从容应对复杂停车场景
+      - 1MP/2MP相机设置，高性能兼顾低成本
+      - 打通数据闭环，支持算法自迭代
+    fun: 与车内外感知灵活搭配，组合满足智驾和座舱的多重方案  #功能
+  - name: 平台介绍
+    mode: 1
+    detail: 地平线艾迪™数据闭环开发平台面向智能汽车AI软件产品开发及迭代，是一套端到端的数据驱动闭环解决方案。地平线艾迪™ 平台完美实现了车端和云端的联合数据挖掘方案，通过端上预埋挖掘策略、云端自动打标签、主动学习等策略，对数据进行多维度的结构化表达，加强数据迭代的针对性与场景适应性。 
+    page: false
+    ppt:
+      - src: 'assets/video/demo.webm'
+        type: video
+    slogan: 数据驱动AI产品开发平台 # 宣传语
+    core: 极致高效/降低成本/数据安全/灵活开放 # 宣传语2
+    per: # 性能指标
+      - 端到端数据驱动解决长尾问题
+      - 经过地平线量产AI软件产品开发流程验证
+    fun: Data | Label | Model | Issue  #功能
+  - name: 征程芯片
+    mode: 2
+    detail: 面向智能驾驶，地平线推出超高性价比的征程系列边缘人工智能视觉芯片，可提供极致的功耗效率、开放的工具链、丰富的算法模型样例和全面的赋能服务。
+    page: false
+    ppt:
+      - src: 'assets/video/地平线芯片宣传片.webm'
+        type: video
+    slogan: 「征程2」中国首款车规级AI芯片 # 宣传语
+    core: 「征程3」新一代高效能车规级AI芯片 # 宣传语2
+    fun: Automotive-grade AI computing processor #功能
+  - name: 天工开物
+    mode: 2
+    detail: 地平线天工开物®AI开发平台(OpenExplorer®)是针对边缘AI 产品研发周期长、投入大、风险高等特点，打造从模型训练到芯片部署、端到端的AI开发平台。天工开物可提供开放易用的AI 芯片开发软件栈以及丰富场景算法仓库，支持合作伙伴更快、更省、更高效地完成AI 产品与应用落地，构筑差异化能力，建立自己的护城河。
+    page: true
+    ppt:
+      - src: 'assets/player/天工开物/天工开物01.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物02.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物03.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物04.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物05.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物06.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物07.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物08.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物09.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物10.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物11.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物12.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物13.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物14.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物15.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物16.jpeg'
+        type: img
+      - src: 'assets/player/天工开物/天工开物17.jpeg'
+        type: img
+    slogan: AI 全生命周期开发平台 # 宣传语
+    core: 更快、更省、更高效完成场景应用落地 # 宣传语2
+    fun: 模型仓库 | 芯片工具链 | 应用开发中间件  #功能
+
+
+# 硬件
+product_gp: # 不用管, 适配未来的二级type
+  - name: 组1
+    key: product
+    children: []
+
+products:
+  - name: 自动驾驶计算平台 # 名称
+    mode: 2 # 根据mode切换显示第几版
+    en: Horizon Matrix® 2 Mono
+    # logo: assets/logos/思皓.png
+    product: assets/product/地平线 Matrix 2 Mono.png # 
+    type: Horizon Journey® 2 # 类型 产品归属 ？
+    sub_title: # 副标题
+    key: product # 必写 照抄就行
+    size: Horizon Journey® 2 X 1
+    slogan: 可靠的车规级硬件<br>全面的感知能力 
+    core: 完备的开发者套件<br>开放的工具链 # 宣传语2
+    fun:
+      - 4 TOPS AI算力
+      - BPU®伯努利1.0
+      - 1路视频输入 1080p@30fps
+      - 8W 功耗 被动散热
+      - 60ms 低延时
+    per:  # 硬件规格 只能三条
+      - 车载参考计算平台
+    detailup: 支持分辨率 720p@30fps和1080p@30fps的摄像头输入有效识别车辆、行人、车道线、交通标识、红绿灯等多种目标。2M30FPS视频输入的实时处理。被动散热，降低系统级成本。
+    detail: 地平线Matrix® 2 Mono由征程2 架构加速的车载计算平台，结合深度学习感知技术，在被动散热的硬件上实现强大的感知计算能力，为高级别自动驾驶提供了稳定可靠的高性能感知系统。提供单路视频输入，可满足模块化需求。 # 详情
+    ppt: # 图视频列表
+      - src: 'assets/product/地平线 Matrix 2 Mono.png'
+        type: img
+  - anim: true
+    blank: true
+    color: '#000'
+    key: product
+    mode: 2
+  - anim: true
+    color: '#000'
+    key: product
+    mode: 2
+  - name: 自动驾驶计算平台 # 名称
+    mode: 2 # 根据mode切换显示第几版
+    en: Horizon Matrix® 2
+    # logo: assets/logos/智华.png
+    product: assets/product/地平线 Matrix 2.png # 
+    type: Horizon Journey® 2 # 类型 产品归属 ？
+    sub_title: # 副标题
+    key: product # 必写 照抄就行
+    size: Horizon Journey® 2 X 4
+    slogan: 可靠的车规级硬件<br>全面的感知能力 
+    core: 完备的开发者套件<br>开放的工具链 # 宣传语2
+    fun:
+      - 16 TOPS AI算力
+      - BPU®伯努利1.0
+      - 4路视频输入 1080p@30fps
+      - 20W 功耗 被动散热
+      - 60ms 低延时
+    per:  # 硬件规格 只能三条
+      - 车载参考计算平台
+    detailup: 地平线 Matrix® 2具备高性能、低功耗、低成本的特点，可满足多个国家、不同场景下高级别自动驾驶运营车队以及无人低速小车的感知计算需求。在性能方面装配有16TOPS的等效算力，而其功耗仅为原来的 2/3。在感知层面，可支持包括摄像头、激光雷达等在内的多传感器感知和融合，低延时实现最多23类语义分割以及五大类目标检测。感知算法能够应对复杂环境 ，即使在特殊场景或极端天气的情况下也能输出稳定的感知结果。
+    detail: 地平线Matrix® 2 自动驾驶计算平台，面向多层次、多场景的未来自动驾驶，搭载地平线征程二代车规级芯片，具备极致性能与高可靠性，可满足L2～L4级别自动驾驶需求，为自动驾驶客户提供感知层的深度赋能。 # 详情
+    ppt: # 图视频列表
+      - src: 'assets/product/地平线 Matrix 2.png'
+        type: img  
+  - name: 硬件在环(HIL)测试套件 # 名称
+    mode: 2 # 根据mode切换显示第几版
+    en: Horizon Matrix®
+    logo: 
+    product: assets/product/硬件在环 (HIL) 测试套件.png # 
+    type:  # 类型 产品归属 ？
+    sub_title: # 副标题
+    key: product # 必写 照抄就行
+    size: 171*51*227mm
+    slogan: 桌面级数据回灌平台，4路1080p视频回灌
+    core: 高效 | 可靠 | 灵活 | 低成本 # 宣传语2
+    fun:
+      - 支持Raw/YUV420格式
+      - Xilinx XCZU7EV FPGA
+      - 4 x PCI-E Gen3
+      - USB 3.0
+      - 2x CAN接口
+      - External RTK/GPS +PPS @MCU x1
+      - External IMU @MCU x1
+      - 35W 典型功耗
+    per:  
+      - 桌面验证平台 
+    detailup: Horizon® Matrix 硬件在环（HIL）测试套件将真实驾驶场景数据在Matrix感知计算平台上进行实时回灌，从而更高效覆盖和复现大量长尾场景，形成上路实测的有效补充。
+    detail: 硬件在环（HIL）测试套件是专为Matri感知计算平台配套的测试工具。支持多达4路视频数据同时回灌，可快速搭建桌面HIL环境，降低成本，提升测试验证效率。 # 详情
+    ppt: # 图视频列表
+      - src: 'assets/product/硬件在环 (HIL) 测试套件.png'
+        type: img
+  - anim: true
+    blank: true
+    color: '#000'
+    key: product
+    mode: 2
+  - anim: true
+    color: '#000'
+    key: product
+    mode: 2
+  - name: 抓帧器数据采集工具 # 名称
+    mode: 2 # 根据mode切换显示第几版
+    en: Horizon Matrix®
+    logo: 
+    product: assets/product/抓帧器数据采集工具.png # 
+    type:  # 类型 产品归属 ？
+    sub_title: # 副标题
+    key: product # 必写 照抄就行
+    size: 285*217*67mm
+    slogan: 车载数据采集平台 
+    core: 多路视频输入采集 # 宣传语2
+    fun:
+      - 12路视频直接采集 1080p RAW20@30fps，
+      - 或3台 Matrix 2数据旁路模式采集
+      - MJPEG视频数据压缩
+      - Matrix Clock同步 via Ethernet
+      - PCIe
+      - 25W 典型功耗
+    per:  
+      - 车规级硬件 # 硬件规格 只能三条
+    detailup: 高密度同步采集12路 RAW的视频数据，可在ISP未确认或者调试得过程中提前开始大量得采集。RAW得原始数据还为深度网络开发得过程中保留所有关键的视觉信息，帮助提升感知模型整体性能及鲁棒性。
+    detail: 抓帧器可在行车时采集视频及传感数据，用于后续的模型训练，测试和验证。可直接从最多12路摄像头获得收入，也可在Matrix 2数据同步旁路模式时，从Matrix 2（最多3台）获取摄像头输入。支持数据压缩（MJPEG），可通过PCIe或千兆网口将数据输出到PC或其他客户系统。 # 详情
+    ppt: # 图视频列表
+      - src: 'assets/product/抓帧器数据采集工具.png'
+        type: img
+
+
+#hardware
+  - key: "product"
+    name: "Horizon Matrix® Pilot 3.0 自动驾驶域控制器"
+    detail: "Horizon Matrix® Pilot 3.0 使用3颗征程® 3芯片，搭载1颗8MP前视摄像头，4颗2MP周视摄像头，1颗2MP后视摄像头，支持外接毫米波雷达输入，采用地平线量产级视觉解决方案，提供目标物级别的视觉感知结果，面向L2~L4级别的AD应用，提供量产级别的软硬件解决方案。"
+    mode: 0
+    fun:
+      - "系统级NOA解决方案"
+      - "算力10~15TOPs，支持8M@120°前视x1、2M@100°周视x4、2M@100°后视x1共计6个摄像头"
+      - "架构可扩展：前视感知(J3#1)→360°视觉感知(J3#2)→NOA智能驾驶(J3#3)"
+      - "车规级硬件设计，安全认证MCU，被动散热方式"
+    per:
+      - "单J3算力 CPU 4核A53 双核BPU等效算力≥5TOPS"
+      - "MCU  TC397/ASIL-D/TriCore CPUs UP to 300MHz "
+      - "内置内存：4GB LPDDR4 3200 32bit "
+      - "内置存储：64GB eMMC/64MB NOR Flash"
+    logo: "assets/logos/logo.svg"
+    product: "assets/product/HorizonMatrixPilot自动驾驶域控制器.png"
+    size: "Horizon Journey® 3 AI Processor"
+    chip: "assets/chips/芯片3.png"
+    ppt:
+      - src: "assets/product/HorizonMatrixPilot自动驾驶域控制器.png"
+        type: "img"
+
+  - key: "product"
+    name: "APG-FV300前视摄像头"
+    detail: "APG-FV300前视摄像头搭载地平线征程®2车规级芯片，具备宽视角、高动态的图像能力，能够检测多类交通参与者，识别多种驾驶场景，可与APG-LR300前向毫米波雷达进行数据融合，结合亚太股份的决策算法和线控制动，为客户提供全栈的ADAS系统解决方案，实现L2+的ADAS功能。支持车辆、自行车、摩托车、行人、车道线、红绿灯、光源、交通标识、工况等目标识别。"
+    mode: 0
+    fun:
+      - "支持3DBox目标物检测，支持C-NCAP2021；可集成前向智能驾驶系统控制器；支持与77GHz前向雷达通信，进行目标融合；应用场景：L2+智能驾驶（AEB、FCW、ACC、LDW、LKA、TSR、IHC等）"
+    per:
+      - "探测距离：>150 m"
+      - "水平视场角：100.3°"
+      - "垂直视场角：39.3°"
+      - "工作电压：12 V DC / 24 V DC"
+      - "额定功率：4.0 W"
+      - "工作温度：-40 ℃~+85 ℃"
+      - "接口：2×CAN-高速 500 kbit/s"
+    logo: "assets/logos/亚太.png"
+    product: "assets/product/APG前视摄像头.png"
+    size: "Horizon Journey® 2 AI Processor"
+    chip: "assets/chips/芯片2.png"
+    ppt:
+      - src: "assets/product/APG前视摄像头.png"
+        type: "img"
+
+  - key: "product"
+    name: "IDDC智能驾驶域控制器"
+    detail: "域驰智能驾驶域控制器搭载地平线征程®2车规级芯片。系统采用4个环视相机与12个超声波传感器支持实现APA泊车功能，1个前视相机与5路毫米波实现智能驾驶功能，可以根据不同的智能驾驶应用场景需求和量产成本的要求，裁剪出不同的控制硬件和软件，满足客户不同车型需求。"
+    mode: 0
+    fun:
+      - "高算力，低延时；"
+      - "支撑实现APA、RPA、HWA、TJA、AEB、ACC、LCC、ICA；"
+    per:
+      - "视频输入：4路1080P@30fps，最高可接入4K摄像头"
+      - "其他传感器输入：可支持毫米波雷达和超声波雷达接入"
+      - "搭载功能安全等级ASIL-D的微控制器"
+    logo: "assets/logos/域驰智能.png"
+    product: "assets/product/IDDC智能驾驶域控制器.png"
+    size: "Horizon Journey® 2 AI Processor"
+    chip: "assets/chips/芯片2.png"
+    ppt:
+      - src: "assets/product/IDDC智能驾驶域控制器.png"
+        type: "img"
+  - key: "product"
+    name: "域驰IPM图像处理模块"
+    detail: "域驰IPM智能摄像头搭载全球领先地平线征程2®车规级芯片和英飞凌TC3XX系列MCU，搭载AR0220 sensor，拥有100°FOV视角，同时采用AUTOSAR软件架构，能实现包括ACC、AEB、FCW、LKA、LDW、TJA、ICA、TSR、IHBC等ADAS功能，符合NCAP相关安全标准，可以为客户提供整套L2级智能驾驶解决方案"
+    mode: 0
+    fun:
+      - "高算力，高性能，算力可达16TOPS"
+      - "视场角≥100°、检测距离≥150m、帧率最高可达60帧/s"
+      - "支持ACC、AEB、FCW、LKA、LDW、TJA、ICA、TSR、IHBC等L2级功能，可满足C-NCAP5星要求"
+    per:
+      - "搭载地平线征程®2车规级芯片 "
+      - "搭载英飞凌TC3XX系列MCU，功能安全等级可达ASIL-D "
+      - "摄像头分辨率1280*940，100°FOV "
+      - "3路CAN通道，支持任意一路CAN唤醒"
+    logo: "assets/logos/域驰智能.png"
+    product: "assets/product/域驰IPM图像处理模块.png"
+    size: "Horizon Journey® 2 AI Processor"
+    chip: "assets/chips/芯片2.png"
+    ppt:
+      - src: "assets/product/域驰IPM图像处理模块.png"
+        type: "img"
+  - key: "product"
+    name: "智能前视ADAS系统"
+    detail: "智华智能前视ADAS系统搭载地平线征程®2车规级芯片，采用2M高清摄像头，具备L2、L3组合式自动化功能，实现车辆横、纵向联合控制，可以实现驾驶员部分解放双手；同时支持以太网OTA升级，迭代功能和用户体验。"
+    mode: 0
+    fun:
+      - "支持AEB、ACC、IACC、FAB、TSR、LDW、PCW、FCW、LKA等功能；"
+      - "高清摄像头，支持2D/3D目标检测，分类，朝向，最高支持23类语义分割"
+    per:
+      - "搭载地平线征程®2车规级芯片 "
+      - "视频输入：1路1080P@30fps，搭载2M高清摄像头 "
+      - "远程升级：支持以太网OTA升级； "
+      - "其他传感器输入：可支持毫米波雷达"
+    logo: "assets/logos/智华.png"
+    product: "assets/product/智能前视ADAS系统.png"
+    size: "Horizon Journey® 2 AI Processor"
+    chip: "assets/chips/芯片2.png"
+    ppt:
+      - src: "assets/product/智能前视ADAS系统.png"
+        type: "img"
+  - key: "product"
+    name: "多功能前视一体机"
+    detail: "多功能前视一体机基于征程® 2车规级AI芯片开发，搭载1颗前视摄像头模组，采用已量产的视觉方案，支持外接1路前向雷达用于目标物级别传感器数据融合，面向L1~L2的ADAS应用，支持1路CAN接口可用于外接其他种类传感器扩展ADAS功能。"
+    mode: 0
+    fun:
+      - "采用标准化的AUTOSAR接口，支持客户功能定制开发"
+      - "车规级硬件设计支持客户快速量产"
+      - "系统架构设计满足ASILB的功能安全要求"
+      - "视觉感知分辨率：2MP"
+      - "镜头视场角：水平100.3°，垂直39.3°，对角线102°"
+    per:
+      - "Lens：1/3′’,4G2GM+IR"
+      - "Sensor： AR0220 (RCCC)"
+      - "Imager Resolution：1828H×948V"
+      - "Frame rate：60fps(max)"
+      - "Main chip：Infineon TC3x7"
+    logo: "assets/logos/金脉.png"
+    product: "assets/product/多功能前视一体机.png"
+    size: "Horizon Journey® 2 AI Processor"
+    chip: "assets/chips/芯片2.png"
+    ppt:
+      - src: "assets/product/多功能前视一体机.png"
+        type: "img"
+  - key: "product"
+    name: "自动驾驶域控制器"
+    detail: "金脉和地平线联合开发的自动驾驶域控制器产品，使用3颗征程® 3芯片，搭载1颗8MP前视摄像头，4颗2MP周视摄像头，1颗2MP后视摄像头，支持外接毫米波雷达输入，采用地平线量产级视觉解决方案，提供目标物级别的视觉感知结果，面向L2~L4级别的AD应用，提供量产级别的软硬件解决方案。支持客户产品快速落地。"
+    mode: 0
+    fun:
+      - "算力10~15TOPs"
+      - "支持8M@120°前视x1、2M@100°周视x4、2M@100°后视x1共计6个摄像头"
+      - "视觉方案360度全覆盖，针对中国的交通情况进行设计"
+      - "支持外接毫米波雷达,超声波传感器等"
+      - "车规级硬件设计，安全认证MCU，被动散热方式"
+    per:
+      - "单J3算力 CPU 4核A53 双核BPU等效算力≥5TOPS"
+      - "MCU  TC397/ASIL-D/TriCore CPUs UP to 300MHz "
+      - "内置内存  4GB LPDDR4 3200 32bit "
+      - "内置存储  64GB eMMC/64MB NOR Flash"
+    logo: "assets/logos/金脉.png"
+    product: "assets/product/自动驾驶域控制器.png"
+    size: "Horizon Journey® 3 AI Processor"
+    chip: "assets/chips/芯片3.png"
+    ppt:
+      - src: "assets/product/自动驾驶域控制器.png"
+        type: "img"
+  - key: "product"
+    name: "Nano SoM核心板"
+    detail: "Nano SoM核心板基于征程® 3芯片开发，面向量产自动驾驶域控制器应用，可搭载地平线成熟视觉算法或自定义算法，实现自动驾驶功能。最小系统板板载集成供电芯片、eMMC、LPDDR4、Nor-flash等核心模块, 可支持客户快速开发自己的控制器，加快迭代速度。"
+    mode: 0
+    fun:
+      - "标准化模块设计支持客户灵活构建自己的系统"
+      - "车规级硬件设计支持客户快速量产"
+      - "支持直接焊接到承载板上，无需使用大量连接器，提高可靠性"
+      - "集成高性能车规级AI芯片征程®3，支持对H.264和H.265视频格式的高效编码，是实现多通道AI计算和多通道数字视频录像的理想平台"
+    per:
+      - "LPDDR4：2GB~4GB"
+      - "eMMC:8GB~64GB;"
+      - "Norflash：256Mbit~512Mbit"
+      - "等效算力：≥ 5 AI TOPS"
+      - "4核 Arm Cortex-A53 最高达 1.2GHz"
+      - "H.264/H.265 编解码性能：支持 4K@60fps 编解码"
+    logo: "assets/logos/金脉.png"
+    product: "assets/product/Nano核心板.png"
+    size: "Horizon Journey® 3 AI Processor"
+    chip: "assets/chips/芯片3.png"
+    ppt:
+      - src: "assets/product/Nano核心板.png"
+        type: "img"
+  - key: "product"
+    name: "前视控制器"
+    detail: "网车前视控制器基于征程®2芯片和ST双核MCU提供基于视觉的驾驶员辅助系统，开放融合接口兼容多款前向雷达或仅靠视觉实现横纵向控制功能，助力Tier 1和OEM实现L2功能。"
+    mode: 0
+    fun:
+      - "可搭载ACC/AEB/LKA/LCC/IHBC/TJA/HWA"
+      - "开放雷达融合接口"
+      - "可支持单摄像头L2辅助驾驶功能"
+      - "符合功能安全等级ASIL-B"
+    per:
+      - "地平线征程®2车规级SOC芯片 "
+      - "ST 32位180MHZ双核车规级MCU "
+      - "100度水平视野，动态范围120dB "
+      - "支持HSM应用、ECC内存校验"
+    logo: "assets/logos/网车科技（NetCar Tech）.png"
+    product: "assets/product/前视控制器.png"
+    size: "Horizon Journey® 2 AI Processor"
+    chip: "assets/chips/芯片2.png"
+    ppt:
+      - src: "assets/product/前视控制器.png"
+        type: "img"
+  - key: "product"
+    name: "超级三合一ADAS一体机"
+    detail: "高性价比智能驾驶紧凑型一体机控制器，搭载地平线征程®2芯片，集成前视摄像头，支持实现L2所有ADAS功能，可为车厂提供低成本，高可靠性，具备丰富ADAS功能的L2智能驾驶系统解决方案。目前已在多家主流车企装车测试。"
+    mode: 0
+    fun:
+      - "硬件方案支持1V/1V1R/1V3R/1V5R"
+      - "功能开发遵循CNCAP2018和CNCAP2021"
+      - "产品支持功能扩展，如自动雨刮，APA等"
+    per:
+      - " MCU芯片：INFINEON TC377"
+      - " 额定功率：6W"
+      - " 感光芯片sensor：AR0220（RCCC）"
+      - " 帧率：30fps"
+      - " 视场角：HFOV 100.3°，VFOV 39.6°"
+      - " 分辨率：1820*940"
+      - " 防护等级：IP5K2"
+    logo: "assets/logos/英博超算.png"
+    product: "assets/product/超级三合一ADAS一体机.png"
+    size: "Horizon Journey® 2 AI Processor"
+    chip: "assets/chips/芯片2.png"
+    ppt:
+      - src: "assets/product/超级三合一ADAS一体机.png"
+        type: "img"
+  - key: "product"
+    name: "L2.99标准版域控制器"
+    detail: "搭载地平线征程®2芯片，能够实现14项ADAS功能，融合视觉APA功能，以及360高清环视功能，支持以太网OTA升级，支持更多功能扩展，如拨杆变道，高速公路辅助等，为车厂提供综合成本最低的集中式智能驾驶系统解决方案。目前已在奇瑞新能源一款中型SUV实现前装量产，是中国第一款正式量产发布的拥有核心技术自主知识产权的多合一智能驾驶域控制器产品。"
+    mode: 0
+    fun:
+      - "接口性能："
+      - "7路CAN/CANFD；2路LIN"
+      - "4路LVDS环视摄像头输入"
+      - "1路LVDS前视摄像头输入"
+      - "1路LVDS视频输出、"
+      - "支持以太网的OTA升级、"
+      - "1路千兆以太网，2路百兆以太网、"
+      - "支持扩展1路LVDSDMS摄像头输入、"
+      - "支持扩展4G/蓝牙/GPS"
+    per:
+      - "视觉AI芯片：地平线征程®2芯片"
+      - " 主处理器：NXP S32V"
+      - " MCU芯片：INFINEON TC297"
+      - " 散热方式：自然散热"
+      - " 工作温度：-40℃~85℃"
+      - " 工作电压：9~24V"
+      - " 功耗：<18W"
+    logo: "assets/logos/英博超算.png"
+    product: "assets/product/L2.99标准版域控制器.png"
+    size: "Horizon Journey® 2 AI Processor"
+    chip: "assets/chips/芯片2.png"
+    ppt:
+      - src: "assets/product/L2.99标准版域控制器.png"
+        type: "img"
+  - key: "product"
+    name: "高性能智驾域控制器"
+    detail: "一款高性能智驾域控制器产品，搭载两片地平线征程®3芯片芯片，搭配一颗高性能、车规级的SOC芯片，能够实现12路高清视频的视觉AI感知，支持多路千兆以太网，支持OTA升级，支持高等级智能驾驶功能，如NOP，AVP等，是国内第一款实现融合智能驾驶行车和泊车功能的双J3域控制器平台。"
+    mode: 0
+    fun:
+      - "4路LVDS（8M前视，2M后视,2M驾驶员状态监控，2M舱内状态监控）"
+      - "4路LVDS（2M周视）；4路LVDS（1M环视）"
+      - "1路显示LVDS；1路显示DP"
+      - "2路T1，1路TX"
+      - "8路CAN/CANFD"
+      - "2路LIN"
+      - "12路I/O超声波雷达"
+    per:
+      - "视觉AI芯片：地平线征程®3"
+      - " 主处理器：高通 SA8155"
+      - " MCU芯片：INFINEON TC377"
+      - " 散热方式：自然散热"
+      - " 工作温度：-40℃~85℃"
+      - " 工作电压：9~24V"
+      - " 功耗：<40W"
+    logo: "assets/logos/英博超算.png"
+    product: "assets/product/高性能智驾域控制器.png"
+    size: "Horizon Journey® 3 AI Processor"
+    chip: "assets/chips/芯片3.png"
+    ppt:
+      - src: "assets/product/高性能智驾域控制器.png"
+        type: "img"
+  - key: "product"
+    name: "智能泊车解决方案"
+    mode: 0
+    fun:
+      - "地平线征程®3双核BPU，AI引擎，强大的算力支持更好的算法，超低功耗超高性能"
+      - "AI算法，采用人工智能算法，更方便快捷识别更多停车场景"
+      - "深度神经卷积，更多数据的训练框架，更好的场景识别"
+      - "视觉融合解决方案，支持全方位（横向/纵向/斜列）全天时智能泊车"
+    logo: "assets/logos/佛吉亚.png"
+    product: "assets/product/智能泊车解决方案.png"
+    size: "Horizon Journey® 3 AI Processor"
+    chip: "assets/chips/芯片3.png"
+    ppt:
+      - src: "assets/product/智能泊车解决方案.png"
+        type: "img"
+  - key: "product"
+    name: "ADAS乘用车前中置摄像 J2 FVC2"
+    detail: "福瑞泰克新一代ADAS前视解决方案视觉能力得到大幅提高，在安全可靠的前提下，进一步降低系统成本。同时，极宽的FOV能让新一代ADAS前视解决方案更好的处理中国cut-in场景。在量产产品测试中，该功能获得客户的好评与认可，升级的像素可以让摄像头看得更清更远，留出更充分的时间对道路场景进行决策反应，使得整体功能更安全，体验更舒适。"
+    mode: 0
+    fun:
+      - "实现前向探测功能包括ACC、AEB、LDW、FCW、LKA、ELKA、PA、TSR、IHBC等主动安全功能，提高驾乘人员和外部交通参与者的乘车安全性。"
+    per:
+      - "采用地平线征程®2处理器"
+      - "视场角升级至100度，感光芯片提高到300w像素，超过1080p高清"
+      - "符合C-NCAP 2021和Euro NCAP2018标准的主动安全ADAS系统"
+    logo: "assets/logos/Freetech.png"
+    product: "assets/product/ADAS乘用车前中置摄像 J2 FVC2.png"
+    size: "Horizon Journey® 2 AI Processor"
+    chip: "assets/chips/芯片2.png"
+    ppt:
+      - src: "assets/product/ADAS乘用车前中置摄像 J2 FVC2.png"
+        type: "img"
+  - key: "product"
+    name: "CAEAQ13—100°前视摄像头"
+    detail: "CAEAQ13—100°前视摄像头集成1.7Mp CMOS、地平线征程®2及高性能MCU芯片，为整车厂客户提供L1/L2智能驾驶方案，满足CNCAP 2021要求。"
+    mode: 0
+    fun:
+      - "L1/L2ADAS功能"
+      - "CNAP2021"
+      - "雷达目标数据融合"
+      - "支持功能安全等级ASIL-B"
+    per:
+      - "170万像素图像输入，1828H*948V"
+      - "3路CAN通信，兼容CAN FD"
+      - "1路雷达融合"
+      - "车规级准量产状态"
+    logo: "assets/logos/长江汽车电子（CAEA）.png"
+    product: "assets/product/CAEAQ13—100°前视摄像头.png"
+    size: "Horizon Journey® 2 AI Processor"
+    chip: "assets/chips/芯片2.png"
+    ppt:
+      - src: "assets/product/CAEAQ13—100°前视摄像头.png"
+        type: "img"
+  - key: "product"
+    name: "智能防碰撞系统"
+    detail: "该智能防碰撞系统分为感知模块、控制模块和执行模块。其中感知模块必须具备高精度，高准确率，低延时等特性，因此前视摄像头方案采用地平线来提供摄像头模组及征程®2芯片模组，采用地平线的高效感知算法，使防碰撞系统的架构更简单可靠。该技术提升会大大增强新石器无人车运营速度提升后的安全保障。"
+    mode: 0
+    fun:
+      - "高算力，低延时：等效8TOPS"
+      - "2D/3D目标检测，分类，朝向；"
+      - "可行区域检测，车道线检测；"
+      - "全被动散热"
+    per:
+      - "搭载2块地平线征程®2车规级芯片"
+      - "视频输入：2路1080P@30fps，2路视频输出；"
+      - " 其他传感器输入：可支持毫米波雷达、激光雷达、超声波接入"
+      - " 搭载功能安全等级ASIL-D的微控制器"
+    logo: "assets/logos/新石器.png"
+    product: "assets/product/智能防碰撞系统.png"
+    size: "Horizon Journey® 2 AI Processor"
+    chip: "assets/chips/芯片2.png"
+    ppt:
+      - src: "assets/product/智能防碰撞系统.png"
+        type: "img"
+  - key: "product"
+    name: "轩辕计算平台"
+    detail: "嬴彻科技全自研的车规级轩辕计算平台，具备高算力、高能效、高安全的特点。算力可达245TOPS，可满足至L4的算力要求，能效比高达1.53TOPS/W；通过双硬件冗余设计和全链条安全防护，确保安全可靠。\r\n 轩辕计算平台的架构全部由嬴彻科技自主研发，可兼容多种自动驾驶芯片，灵活实现从L2到L4的多种配置。"
+    mode: 0
+    fun:
+      - "高算力：高达245TOPS，支持L3/L4"
+      - "高能效：高至1.53TOPS/W"
+      - "高安全：车规级冗余和全链条安全防护"
+    logo: "assets/logos/嬴彻科技.png"
+    product: "assets/product/轩辕计算平台.png"
+    size: "Horizon Journey® 3 AI Processor"
+    chip: "assets/chips/芯片3.png"
+    ppt:
+      - src: "assets/product/轩辕计算平台.png"
+        type: "img"
+  - key: "product"
+    name: "域控制器"
+    mode: 0
+    per:
+      - "主芯片：2×Horizon Journey® 3"
+      - "算力：10T FLOPS"
+      - "支持接口：12×Camera In，1×Video Routing"
+      - "1×Video Out，1×Ethernet，5×CAN FD，2×CAN，1×GPS Antenna"
+      - "可支持传感器：12×Camera，5×RADAR,"
+      - "12×Ultrasonic，1×LIDAR"
+    logo: "assets/logos/追势科技.png"
+    product: "assets/product/域控制器.png"
+    size: "Horizon Journey® 3 AI Processor"
+    chip: "assets/chips/芯片3.png"
+    ppt:
+      - src: "assets/product/域控制器.png"
+        type: "img"
+  - key: "product"
+    name: "智能前视摄像头"
+    detail: "基于1R1V传感器配置，实现L2（TJA+ICA）辅助驾驶功能"
+    mode: 0
+    per:
+      - "HFOV: 100° "
+      - "Resolution: 1.7Mp "
+      - "Frame Rate: 30 fps"
+    logo: "assets/logos/创时.png"
+    product: "assets/product/智能前视摄像头.png"
+    size: "Horizon Journey® 2 AI Processor"
+    chip: "assets/chips/芯片2.png"
+    ppt:
+      - src: "assets/product/智能前视摄像头.png"
+        type: "img"
+  - key: "product"
+    name: "5G+AI边缘计算路侧融合网关"
+    mode: 0
+    fun:
+      - "高算力、低功耗5G+AI边缘计算"
+      - "支持V2X、5G-NR与4G-LTE多模同时通信机制"
+      - "支持多路摄像头和激光雷达等传感器接入，提供实时可靠的多源感知融合处理"
+      - "支持硬件安全芯片加密、消息签名"
+      - "支持高精度本地时钟保持"
+      - "提供端到端的CA安全通信机制"
+      - "防护等级IP65以上"
+    logo: "assets/logos/大唐移动.png"
+    product: "assets/product/5G+AI边缘计算路侧融合网关.png"
+    size: "Horizon Journey® 2 AI Processor"
+    chip: "assets/chips/芯片2.png"
+    ppt:
+      - src: "assets/product/5G+AI边缘计算路侧融合网关.png"
+        type: "img"
+  - key: "product"
+    name: "5G车载融合网关"
+    mode: 0
+    fun:
+      - "支持5G-NR、4G-LTE、C-V2X、IPV4/IPV6等多种网络通信协议"
+      - "支持CAN/串口/以太网/USB/视频/音频等丰富的接口"
+      - "支持厘米级实时动态定位"
+      - "支持CSAE标准应用场景"
+    logo: "assets/logos/大唐移动.png"
+    product: "assets/product/5G车载融合网关.png"
+    size: "Horizon Journey® 2 AI Processor"
+    chip: "assets/chips/芯片2.png"
+    ppt:
+      - src: "assets/product/5G车载融合网关.png"
+        type: "img"
+
+  - key: "product"
+    name: "车载高性能中央计算平台"
+    detail: "映驰科技车载高性能中央计算平台以地平线征程3双芯片构建智驾感知规划核心，NXP S32G构建中央网关处理及实时车控，高通SA8155P搭建了智能座舱的科技体验。EMOS的确定性通讯及确定性调度加强了智驾、网关、座舱间的高带宽信息融合、互联，为探索下一代智能汽车新型电子电气架构提供了技术基础。"
+    mode: 0
+    fun:
+      - "高算力，低延时，基于TSN协议的以太网通讯架构"
+      - "-ASILD系统架构设计"
+      - "-兼容座舱内外、智驾所需的所有高清摄像头输入"
+      - "-全被动散热，易于整车集成"
+    per:
+      - "视频高清输入：15路1080P高清摄像头；"
+      - "视频高清输出：6路1080P高清视频，包括E-Mirror，HUD，中控、仪表等；"
+      - "12路 CAN-FD；"
+      - "6路LIN；"
+      - "8路以太网；"
+      - "12路超声波传感器接入"
+    logo: "assets/logos/映驰科技.png"
+    product: "assets/product/车载高性能中央计算平台.png"
+    size: "Horizon Journey® 3 AI Processor"
+    chip: "assets/chips/芯片3.png"
+    ppt:
+      - src: "assets/product/车载高性能中央计算平台.png"
+        type: "img"
+  
+
+
+  - key: "product"
+    name: "Horizon Halo™️3.0 智能交互一体机计算平台"
+    detail: "Horizon Halo™️3.0开创性地融合视觉感知和语音前后端处理算法，打造了智能交互计算平台以及生态算法工具链，生态场景工具链，AI数据处理平台，端云结合等全系统的解决方案"
+    mode: 1
+    fun:
+      - "1.视觉感知算法60+"
+      - "2.语音处理算法20+"
+      - "3.多模融合算法20+"
+      - "4.场景数量100+"
+    per:
+      - "摄像头接入6路，2M到6M"
+      - "麦克风接入4-6路"
+      - "AI Board 单独迭代"
+      - "ASIL-B 级别 DMS"
+      - "一体机方案带来多传感器公用及融合"
+      - " 应用场景灵活，多种车型方案适配"
+    logo: "assets/logos/地平线.png"
+    product: "assets/product/HorizonHalo智能交互一体机计算平台.png"
+    size: "Horizon Journey® 3 AI Processor"
+    chip: "assets/chips/芯片3.png"
+    ppt:
+      - src: "assets/product/HorizonHalo智能交互一体机计算平台.png"
+        type: "img"
+  
+  - key: "product"
+    name: "座舱交互系统控制器(DMS+IMS)"
+    detail: "金脉的座舱监控系统(DMS+IMS)采用地平线征程®2 AI芯片进行设计，利用AI感知技术实现驾驶员以及乘客的座舱交互功能。该系统采用地平线多模交互算法，使得驾乘人员有更加智能化的交互体验。"
+    mode: 1
+    fun:
+      - "全车规级硬件设计，满足主机厂所有试验要求"
+      - "高精度的视觉感知算法和丰富的API接口支持客户应用开发"
+    per:
+      - "采用地平线征程® 2处理器以及视觉感知算法"
+      - "分体式设计可支持摄像头灵活适配和安装"
+    logo: "assets/logos/金脉.png"
+    product: "assets/product/座舱交互系统控制器.png"
+    size: "Horizon Journey® 2 AI Processor"
+    chip: "assets/chips/芯片2.png"
+    ppt:
+      - src: "assets/product/座舱交互系统控制器.png"
+        type: "img"
+  - key: "product"
+    name: "驾驶员监控系统控制(DMS)"
+    detail: "金脉的驾驶员监控系统(DMS)采用地平线征程®2 AI芯片进行设计，通过AI感知技术实现驾驶员身份识别、驾驶员疲劳监测以及驾驶行为监测等功能。该系统针对乘用车和商用车，设计了不同的报警机制，并可对关键数据进行采集和上传。集成了BPU的高性能处理器进行数字图像处理与分析，当驾驶员在疲劳、分心时主动进行提醒，保障驾乘人员的安全。"
+    mode: 1
+    fun:
+      - "全车规级硬件设计，满足主机厂所有试验要求"
+      - "高精度的视觉感知算法和丰富的API接口支持客户应用开发、"
+    per:
+      - "采用地平线征程® 2处理器以及视觉感知算法"
+      - "分体式设计可支持摄像头灵活适配和安装"
+    logo: "assets/logos/金脉.png"
+    product: "assets/product/驾驶员监控系统控制.png"
+    size: "Horizon Journey® 2 AI Processor"
+    chip: "assets/chips/芯片2.png"
+    ppt:
+      - src: "assets/product/驾驶员监控系统控制.png"
+        type: "img"
+  - key: "product"
+    name: "DMS算法中控平台"
+    detail: "高性能内置DMS算法中控平台"
+    mode: 1
+    fun:
+      - "支持DMS、手势识别和人脸识别"
+      - "内置高清AVM算法"
+      - "高精度地图支持（支持双频差分GPS及算法）"
+      - "支持语音助理、声纹识别、声源定位"
+    per:
+      - "内置地平线征程®2 芯片"
+      - "联网功能，内置SIM芯片，可支持OTA及APP软件连网"
+      - "支持全屏双屏/三屏互动，娱乐、摄像头、导航等信息显示"
+    logo: "assets/logos/佛吉亚.png"
+    product: "assets/product/高性能内置DMS算法中控平台.png"
+    size: "Horizon Journey® 2 AI Processor"
+    chip: "assets/chips/芯片2.png"
+    ppt:
+      - src: "assets/product/高性能内置DMS算法中控平台.png"
+        type: "img"
+  - key: "product"
+    name: "智能座舱系统"
+    detail: "搭载高性能，低功耗的地平线征程®2车规级AI芯片，同时满足安全驾驶和娱乐的需求。"
+    mode: 1
+    fun:
+      - "高度智能的AI模块，提供疲劳检测，抽烟检测，打电话检测等一系列功能"
+      - "多模交互，语音控制无需唤醒，人脸识别，手势识别带来更加便捷的人机交互"
+      - "支持车载微信，腾讯地图和QQ音乐，提供更多样的媒体娱乐"
+      - "内置4GT-box实现远程控车，车辆定位等功能，随时了解车辆状况"
+    per:
+      - "使用功能强大的I.MX8平台，高速的数据传输支持中控及仪表的双屏互动"
+      - "搭载10.25寸中控高清屏幕，分辨率为高清1920*720"
+    logo: "assets/logos/北斗智联.png"
+    product: "assets/product/智能座舱系统.png"
+    size: "Horizon Journey® 2 AI Processor"
+    chip: "assets/chips/芯片2.png"
+    ppt:
+      - src: "assets/product/智能座舱系统.png"
+        type: "img"
+  - key: "product"
+    name: "智能座舱车内监控系统"
+    detail: "智华智能座舱监控系统，搭载地平线征程®2芯片，采用2M高清IR和RGB-IR图像传感器，基于FaceID、landmark、视线追踪、行为识别、语音识别等核心算法，提供疲劳预警，身份认证，智能座舱等功能，同时增加车联网功能，增加联网信息，提升产品附加值和用户体验"
+    mode: 1
+    fun:
+      - "高像素传感器"
+      - "多场景感知规划（车内遗留物体识别、行为识别、语义识别）"
+      - "集成到ADAS域控制器，增加车联网功能"
+    per:
+      - "控制器：搭载地平线征程®2车规级芯片 "
+      - "视频输入：2路1080P@30fps "
+      - "视频输出：1路LVDS视频输出 "
+      - "远程升级：支持以太网OTA升级 "
+      - "摄像头：2M像素RGB/IR摄像头"
+    logo: "assets/logos/智华.png"
+    product: "assets/product/智能座舱车内监控系统.png"
+    size: "Horizon Journey® 2 AI Processor"
+    chip: "assets/chips/芯片2.png"
+    ppt:
+      - src: "assets/product/智能座舱车内监控系统.png"
+        type: "img"
+  - key: "product"
+    name: "智能座舱控制器"
+    detail: "搭载全球首发国产新型RGB/IR 传感器， 首次量产实现舱内红外多摄方案，搭载日夜共焦镜头，可同时实现日间和夜间的抖音拍摄。国内首例针对智能座舱内多摄像头互相干扰问题的解决方案。经纬恒润具备成熟的舱内摄像头产线和开发布置能力，可针对用户需求进行适配，可深度融合ADAS、TBOX、车身、高精地图等信息，打造一体化智能座舱解决方案。"
+    mode: 1
+    fun:
+      - "具备驾驶员监控系统（疲劳检测、抽烟检测、打电话检测、注意力检测）、FaceID认证、自动座椅调节、情绪氛围灯、智能提神模式、智能天窗等组合功能"
+    per:
+      - "MCU：NXP S32K146"
+      - "Program Flash：1MB"
+      - "DMS视场角：H:58°,V:47.6°；"
+      - "OMS视场角，H:128°,V:68°"
+      - " 支持车载以太网（OTA）"
+      - "支持Fakra（多路视频输入输出）"
+      - "支持SD卡升级及内容存储"
+    logo: "assets/logos/经纬恒润.png"
+    product: "assets/product/智能座舱控制器.png"
+    size: "Horizon Journey® 2 AI Processor"
+    chip: "assets/chips/芯片2.png"
+    ppt:
+      - src: "assets/product/智能座舱控制器.png"
+        type: "img"
+  - key: "product"
+    name: "车载智能多媒体主机"
+    detail: "全球首款基于瑞萨RCAR3 Hypervisor双系统智能座舱解决方案，已在广汽，奇瑞等多个车上量产，性能达到国际先进水平。"
+    mode: 1
+    fun:
+      - "支持一机双屏"
+      - "QNX+Android双系统,功能安全达到ASILB等级"
+      - "支持内置360功能及DMS功能"
+      - "100.BaseT1以太网"
+      - "内置蓝牙/Wi-Fi/GPS模块"
+      - "内置功放支持四声道喇叭"
+      - "支持有线与无线Carplay/Carlife/AndroidAuto"
+    per:
+      - "搭载瑞萨RCAR3处理器"
+      - "支持两路1920*720/60fps视频输出"
+      - "支持五路1280*720/30fps摄像头输入"
+      - "支持双Mic输入"
+    logo: "assets/logos/德赛西威（DESAY SV）.png"
+    product: "assets/product/车载智能多媒体主机.png"
+    size: "Horizon Journey® 2 AI Processor"
+    chip: "assets/chips/芯片2.png"
+    ppt:
+      - src: "assets/product/车载智能多媒体主机.png"
+        type: "img"
+  - key: "product"
+    name: "智能伙伴 Imate"
+    detail: "基于车内DMS和OMS摄像头，实现车内驾驶员和乘客的智能感知服务，例如人脸识别、驾驶员疲劳及分心状态识别和提醒、手势隔空控制、智能车身控制等功能。"
+    mode: 1
+    per:
+      - "DMS camera:IR,940nm,2Mp,30fps;"
+      - " OMS camera:RGB,2Mp.15fps;"
+    logo: "assets/logos/创时.png"
+    product: "assets/product/智能伙伴 Imate.png"
+    size: "Horizon Journey® 3 AI Processor"
+    chip: "assets/chips/芯片3.png"
+    ppt:
+      - src: "assets/product/智能伙伴 Imate.png"
+        type: "img"
+  - key: "product"
+    name: "360°环视与盲区监测预警系统"
+    detail: "锐明360°环视与盲区监测预警系统搭载地平线征程3®车规级芯片，驾驶员可以在车载屏幕上观测根据车体信号实时变换的车身周边影像、车身盲区等，并能自由的选择合适的视角来观测汽车外部环境的实时影像，有效的减少了驾驶员视觉盲区，有助于减少刮蹭，碰撞等事故的发生，大大地提高了行车驾驶的安全性。"
+    mode: 0
+    fun:
+      - "高算力，低延时"
+      - "环视拼接（AVM)、预览、回放"
+      - "行人识别预警（BSD)"
+      - "视频存储(DVR)"
+    per:
+      - "搭载地平线征程 3车规级芯片"
+      - "视频输入：支持3-8路AHD输入"
+      - "视频编解码：支持H.264/H.265编码"
+      - "视频输出：支持AHD&CVBS "
+      - "搭载喇叭、指示灯、陀螺仪、TF卡、RS485/232、CAN等接口"
+    logo: "assets/logos/锐明.png"
+    product: "assets/product/360°环视与盲区监测预警系统.png"
+    size: "Horizon Journey® 2 AI Processor"
+    chip: "assets/chips/芯片2.png"
+    ppt:
+      - src: "assets/product/360°环视与盲区监测预警系统.png"
+        type: "img"
+  - key: "product"
+    name: "思皓QX座舱控制器"
+    detail: "思皓QX座舱控制器，集成2路摄像头以及语音输入，基于地平线征程2®车规级芯片实现FaceID、landmark、视线追踪、行为识别、语音识别等，提供疲劳预警，身份认证，智能座舱交互等功能。"
+    mode: 1
+    fun:
+      - "支持2路视频输入"
+      - "支持多麦克风"
+      - "支持双联屏互动"
+      - "支持以太网OTA升级"
+    per:
+      - "搭载征程2车规级芯片及瑞萨H3N Soc"
+    logo: "assets/logos/思皓.png"
+    product: "assets/product/思皓QX座舱控制器.png"
+    size: "Horizon Journey® 2 AI Processor"
+    chip: "assets/chips/芯片2.png"
+    ppt:
+      - src: "assets/product/思皓QX座舱控制器.png"
+        type: "img"
+  
+
+# roadmap
+chips:
+  - name: 地平线征程® 2 AI芯片 # 名称
+    gen: 2 # 翻转后第几代
+    type: Horizon Journey® # 类型
+    click: true # 是否可点击
+    pos: [15%, 42%] # 定位
+    line: assets/chips/Frame2.svg # 线框
+    year: 2019 # 年份
+    state: 规模化量产 # 生产状态
+    status: 1 # 规模化量产（1） 已量产（2） 未量产（3）
+    sub_title: Horizon Journey® 2 AI Processor<br><br>Level 2 | 前视感知 | DMS<br>BPU®伯努利架构1.0
+    size: 工艺 TSMC 28nm HPC+ <br>封装 17x17mm, BGA
+    slogan: 中国首款车规级AI芯片 # 宣传语
+    core: 已与上汽、广汽、长安等车厂实现前装量产 # 宣传语2
+    per: # 性能指标
+      - 2x 全高清摄像头
+      - 支持单路4K@30fps/图像接入
+      - 双核Arm® Cortex®-A53
+      - 高性能 等效算力4TOPS
+      - 车规级 符合AEC-Q100标准
+      - 低功耗 2W 典型功耗
+    detailup: 极高的算力利用率 <br/> 极高的算力有效性 <br/>  出色的感知可靠性 <br/> 卓越的感知丰富性
+    detail: 地平线征程®2 现已率先实现大规模前装量产。能够更高效灵活地实现多类 AI 任务处理，对多类目标进行实时检测和精准识别，可全面满足视觉 ADAS/ 自动驾驶的视觉感知、视觉定位、视觉建图等智能驾驶环境感知需求，同时支持语音识别，眼球跟踪，手势识别等智能人机交互功能，全方位赋能汽车智能化。
+    ppt: # 图视频列表
+      - src: 'assets/chips/芯片2.png '
+        type: img
+      - src: 'assets/video/地平线芯片宣传片.webm'
+        type: video
+  - name: 地平线征程® 3 AI芯片
+    gen: 3
+    click: true
+    state: 已量产
+    type: Horizon Journey®
+    status: 1
+    pos: [30.5%, 35%]
+    line: assets/chips/Frame3.svg # 线框
+    year: 2020
+    sub_title: Horizon Journey® 3 AI Processor<br><br>Level 2-3 | 周视感知 | 环视感知<br>BPU®伯努利架构2.0
+    size: 工艺 TSMC 16nm FFC <br>封装 15x15mm, BGA
+    slogan: 新一代高效能车规级汽车智能芯片
+    core: 高效能、低功耗、强大的图像处理能力、超强的开发拓展性
+    per: # 性能指标
+      - 6x 全高清摄像头
+      - 支持最大输入分辨率：8MPixels@30fps
+      - 四核 Arm® Cortex®-A53 
+      - 高性能 等效算力5TOPS
+      - 车规级 符合AEC-Q100标准
+      - 低功耗 2.5W 典型功耗
+    detailup: 出色的图像接入和处理能力 <br/> 极高的AI算力有效性 <br/> 更开放的工具 <br/> 更丰富的场景支持 <br/> 
+    detail: 地平线征程®3 是具备更高集成度、开放性和可拓展性特点的新一代车载 AI 芯片。该芯片支持基于深度学习的图像检测、分类、跟踪与像素级分割，拥有超强感知性能。通过精确检测、识别和理解交通参与者及驾驶环境，该款芯片可支持多通道数字视频录制及实时 AI 计算，可实现高级别辅助驾驶（ADAS）、驾驶员监控（DMS）及自助泊车辅助（APA）等功能。
+    ppt:
+      - src: 'assets/chips/芯片3.png '
+        type: img
+      - src: 'assets/video/地平线芯片宣传片.webm'
+        type: video
+  - name: 地平线征程5
+    gen: 5
+    pos: [46.5%, 23%]
+    line: assets/chips/Frame5.svg # 线框
+    src: assets/chips/芯片3.png
+    year: 2021
+    type: Horizon Journey®
+    state: 即将发布
+    status: 2
+    sub_title: Horizon Journey® 5 AI Processor
+    size: # 15cm*25cm*4cm
+      - 15cm # 长
+      - 15cm # 宽
+      - 15cm # 高
+    slogan: 下一代高算力芯片
+    core: 打造面向未来的智能座舱产品
+  - name: 地平线征程5P
+    gen: 5p
+    pos: [62.5%, 21%]
+    line: assets/chips/Frame5P.svg # 线框
+    src: assets/chips/芯片3.png
+    year: 2021
+    type: Horizon Journey®
+    state: 即将发布
+    status: 2
+    sub_title: Horizon Journey® 5P AI Processor
+    size: # 15cm*25cm*4cm
+      - 15cm # 长
+      - 15cm # 宽
+      - 15cm # 高
+    slogan: 下一代高算力芯片
+    core: 打造面向未来的智能座舱产品
+  - name: 地平线征程6
+    gen: 6
+    pos: [78.5%, 18%]
+    line: assets/chips/Frame6.svg # 线框
+    src: assets/chips/芯片3.png
+    type: Horizon Journey®
+    year: 2023
+    state: 敬请期待
+    status: 3
+    sub_title: Horizon Journey® 6 AI Processor
+    slogan: 超级中央计算机
+    core: 打造面向未来的智能座舱产品
+
+
+
+# 芯片海报
+tiers:
+  - name: 征程1
+    tier: 1
+    hero: <b>中国首款</b><br />边缘<br />人工智能芯片
+    intro: |
+      <b>面向智能驾驶，地平线推出征程系列边缘人工智能视觉芯片</b> <br />
+      中国首款边缘人工智能芯片——征程1，于2017年12月正式流片并发布，具备同时对行人、机动车、非机动车、车道线、交通标志牌、红绿灯等多类目标进行精准的实时检测与识别的处理能力，可用于高性能L2级别的高级驾驶辅助系统(ADAS)。
+    io: 1
+    features:
+      - 前视感知
+      - DMS
+    standards: null
+    power: 1.5
+    tops: 1
+    bpu: BPU® 高斯架构
+    spec: |
+      自主研发：征程2是一款完全自主研发的国产芯片，具有全球领先的技术实力。
+      全球领先性能：可实时处理1080p@30fps视频，每帧中可同时对200个目标进行检测、跟踪、识别。典型功耗1.5W，每帧延时小于30ms。
+    keywords:
+      - 中国首款边缘人工智能芯片
+
+
+  - name: 征程2
+    tier: 2
+    hero: | 
+      <b>中国首款</b><br /><b style="margin-right: 30px">车规级</b><br />人工智能芯片
+    intro: |
+      <b>中国首款车规级 AI 芯片，已率先实现大规模前装量产</b> <br />
+      高效灵活实现多类AI任务处理，对多类目标进行实时检测和精准识别，全面满足视觉ADAS/自动驾驶的视觉感知、视觉定位、视觉建图等智能驾驶环境感知需求，同时支持语音识别，眼球跟踪，手势识别等智能人机交互功能，全方位赋能汽车智能化。
+    io: 2
+    features:
+      - 前视感知
+      - DMS
+    standards: 
+      - 车规级 AEC-Q100 Grade2
+    power: 2
+    tops: 4
+    bpu: BPU® 伯努利架构 1.0
+    spec: 
+      - 支持单路4K@30fps/图像接入
+      - 高性能 等效算力4TOPS
+      - 双核 BPU®伯努利1.0
+      - 双核ARM® Cortex®-A53
+      - 低功耗 2W 典型功耗
+      - 工艺 TSMC 28nm HPC+
+      - 封装 17x17mm, BGA
+    keywords:
+      - 中国首款车规级人工智能芯片
+      - 规模化量产
+      
+
+
+  - name: 征程3
+    tier: 3
+    hero: | 
+      <b>新一代高效能</b><br /><b>车规级</b><br />汽车智能芯片
+    intro: |
+      <b>具备更高集成度、开放性和可拓展性特点的新一代车载人工智能芯片</b> <br />
+      支持基于深度学习的图像检测、分类、跟踪与像素级分割，超强感知性能，精确检测、识别和理解交通参与者及驾驶环境。支持多通道数字视频录制及实时 AI 计算，可实现高级别辅助驾驶（ADAS）、驾驶员监控（DMS）及自助泊车辅助（APA）等功能。
+    io: 6
+    features:
+      - 周视感知
+      - 环视感知
+    standards: 
+      - 车规级 AEC-Q100 Grade2
+    power: 2.5
+    tops: 5
+    bpu: BPU® 伯努利架构 2.0
+    spec: 
+      - 支持最大输入分辨率：8MPixels@30fps
+      - MAPS性能跑分：422 FPS
+      - 高性能 等效算力5TOPS
+      - 双核 BPU®伯努利2.0
+      - 四核 ARM® Cortex®-A53 
+      - 低功耗 2.5W 典型功耗
+      - 工艺 TSMC 16nm FFC
+      - 封装 15x15mm, BGA
+    keywords:
+      - 高效能
+      - 驱动L2+自动驾驶
+      - 斩获多项车型定点
+
+      
+  - name: 征程5/5P
+    tier: 5/5P
+    hero: | 
+      面向 <b>L3/L4<br />下一代</b><br /><b>高算力芯片</b>
+    intro: |
+      <b>征程5将于2021年推出，单芯片AI算力高达 96 TOPS</b><br>
+      在MAPS评估标准下，征程5的跑分高达3026FPS，性能超越目前世界最领先的量产自动驾驶芯片——特斯拉FSD。<br>
+       <br>
+      「即将发布」 
+    io: 16
+    features:
+      - 多传感器融合
+      - 预测
+      - 规划
+    standards: 
+      - 车规级 AEC-Q100 Grade2
+      - ASIL-B (D)
+    power: 20/25
+    tops: 96/128
+    bpu: BPU® 贝叶斯架构
+    spec: 
+      - 八核 ARM® Cortex®-A55 CPU
+      - MAPS性能跑分：3026 FPS
+      - 双核 Cortex-M33 MCU 锁步安全岛
+      - 双核 BPU®贝叶斯
+      - 双核 视觉 DSP
+      - 20/25W 典型功耗
+      - 工艺 TSMC 16nm FinFET
+      - 封装 27x27mm, HFCBGA
+    keywords:
+      - 业界旗舰级
+      - 面向L3/L4级别自动驾驶
+      - 对标Tesla FSD
+      - 即将发布
+
+  - name: 征程6
+    tier: 6
+    hero: | 
+      <b>超级</b><br /><b>中央<br />计算机</b>
+    intro: |
+      <b>革命性 AI 性能 中央计算机</b>
+      <br>
+      「敬请期待」
+    io: 16
+    features:
+      - 感知融合
+      - 动态预测规划
+    standards: 
+      - 车规级 AEC-Q100 Grade2
+      - ASIL-D
+    power: X
+    tops: 512
+    bpu: BPU® 纳什架构
+    spec: null
+    keywords:
+      - 超强AI性能
+      - 敬请期待
+
+
+# logo
+
+legend:
+  - name: 整车客户
+    class: blue
+  - name: 产业合作伙伴
+    class: gray
+
+clients: 
+  - key: "上汽集团"
+    type: "oem"
+    logo: "assets/logos/上汽集团.png"
+    children:
+      - type: "oem"
+        index: 0
+        mode: 1
+        name: "上汽集团"
+        key: "整车客户"
+        detail: "2020年8月28日，“上汽集团与地平线人工智能联合实验室”签约暨启动仪式在上海举行。上汽集团将与地平线在智能驾驶技术领域展开全面深度合作，共同进行前瞻性技术研究，打造具有上汽集团品牌特色的智能驾驶和智能座舱人工智能终端应用。"
+        logo: "assets/logos/上汽集团.png"
+        title: "上汽集团与地平线人工智能联合实验室揭牌成立，加速智能驾驶应用落地"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/上汽集团美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/上汽集团与地平线人工智能联合实验室揭牌.jpg"
+            type: "img"
+  - key: "长安汽车"
+    type: "oem"
+    logo: "assets/logos/长安汽车.png"
+    children:
+      - type: "oem"
+        index: 1
+        mode: 2
+        name: "长安汽车"
+        key: "整车客户"
+        detail: "2020年3月，长安汽车全球直播发布主力新品车型 UNI-T。该款车型定位于“未来科技量产者”，是首款搭载国产人工智能芯片的智能汽车，采用长安汽车和地平线联合开发的智能驾驶舱 NPU计算平台，内置中国首款车规级 AI 芯片——地平线征程2。伴随长安 UNI-T 6 月正式量产上市，征程2成为全球首个上车量产的国产 AI 芯片，地平线也开启车规级 AI 芯片的前装量产元年。"
+        logo: "assets/logos/长安汽车.png"
+        title: "长安汽车发布主力车型UNI-T，地平线车规级 AI 中国芯首次前装量产"
+        sub_title: "UNI-T"
+        src: "assets/chips/芯片2.png"
+        ppt:
+          - src: "assets/clients/合作内容/长安发布UNIT.png"
+            type: "img"
+      - type: "oem"
+        index: 2
+        mode: 2
+        name: "长安汽车"
+        key: "整车客户"
+        detail: "2021年 2 月 ，搭载地平线征程2 及 Halo车载智能交互方案的长安 UNI-K 正式开启全球预售。得益于地平线征程2 强大的 AI 算力以及 Halo 智能交互方案的技术点预埋，长安UNI-K推出最新的「隔空手势识别」功能，极大的释放了车内用户在多媒体交互上的精力，长安 UNI-K 未来将实现持续性的“成长”。"
+        logo: "assets/logos/长安汽车.png"
+        title: "长安UNI-K开启全球预售，搭载手势识别新功能"
+        sub_title: "UNI-K"
+        src: "assets/chips/芯片2.png"
+        ppt:
+          - src: "assets/clients/合作内容/长安UNI-K开启全球预售.jpg"
+            type: "img"
+  - key: "上汽乘用车"
+    type: "oem"
+    logo: "assets/logos/上汽乘用车.png"
+    children:
+      - type: "oem"
+        index: 3
+        mode: 3
+        name: "上汽乘用车"
+        key: "整车客户"
+        detail: "2020年2月22日，地平线正式公告与上海汽车集团股份有限公司乘用车公司达成全面战略合作，双方将依托各自在汽车、人工智能领域的核心优势，共同探索汽车智能化前沿技术，研发具有上汽集团品牌特色的智能化、网联化汽车产品，引领汽车智能化发展的趋势。地平线将基于上汽乘用车的多元化需求，提供基于全系征程汽车智能芯片的完整智能驾驶芯片解决方案，开放数据闭环等领域的技术能力，通过场景赋能，助力上汽乘用车打造可持续进化的智能汽车。"
+        logo: "assets/logos/上汽乘用车.png"
+        title: "地平线与上汽乘用车达成全面战略合作，全系列征程芯片上场"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/上汽乘用车美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/上汽乘用车战略投资地平线.png"
+            type: "img"
+  - key: "上汽智己"
+    type: "oem"
+    logo: "assets/logos/上汽智己汽车.png"
+    children:
+      - type: "oem"
+        index: 4
+        mode: 4
+        name: "上汽智己"
+        key: "整车客户"
+        detail: "2021 年 1 月 13 日，“智能时代出行变革的实现者”智己汽车举行全球品牌发布会，发布高端智能纯电轿车和智能纯电 SUV，新车型智能数字架构选用地平线征程 2。智己汽车的首款量产版车型，已于 2021 年 4 月上海车展期间接受全球预订。"
+        logo: "assets/logos/上汽智己汽车.png"
+        title: "地平线征程加持，赋能智己汽车智能数字架构"
+        sub_title: "赋能成果"
+        src: "assets/chips/芯片2.png"
+        ppt:
+          - src: "assets/clients/合作内容/赋能智己汽车.jpg"
+            type: "img"
+  - key: "上汽大通"
+    type: "oem"
+    logo: "assets/logos/上汽大通.png"
+    children:
+      - type: "oem"
+        index: 5
+        mode: 5
+        name: "上汽大通"
+        key: "整车客户"
+        detail: "上汽大通MAXUS联手地平线共同演绎未来智能出行的新场景、新体验，并全球首次亮相了上汽大通MAXUS MIFA 概念车。未来，上汽大通MAXUS与地平线将进一步深化战略合作，全面对标国际技术水准，面向中国驾驶场景，携手开发、并逐步落地高级别智能驾驶辅助方案。"
+        logo: "assets/logos/上汽大通.png"
+        title: "上汽大通MAXUS MIFA概念车全球首秀，地平线高效能汽车智能芯片强力加持"
+        sub_title: "赋能成果"
+        src: "assets/chips/芯片3.png"
+        ppt:
+          - src: "assets/clients/合作内容/上汽大通MAXUS.jpg"
+            type: "img"
+  - key: "奥迪"
+    type: "oem"
+    logo: "assets/logos/奥迪.png"
+    children:
+      - type: "oem"
+        index: 6
+        mode: 6
+        name: "奥迪"
+        key: "整车客户"
+        detail: "奥迪与地平线长期在自动驾驶技术研发及产品化等方面展开合作，共同推动高级别自动驾驶的研发和落地，特别是实现中国市场的本地化。2018 年 9 月，地平线助力奥迪在无锡获得了 L4 路测牌照，为获得牌照的测试车配备了自动驾驶相关的硬件以及软件。"
+        logo: "assets/logos/奥迪.png"
+        title: "长期紧密合作伙伴，共同推动高级别自动驾驶的研发和落地"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/奥迪美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/奥迪合作伙伴.jpg"
+            type: "img"
+      - type: "oem"
+        index: 7
+        mode: 6
+        name: "奥迪"
+        key: "整车客户"
+        detail: "2019年12月，奥迪中国首次在国内实际高速公路场景进行乘用车编队 L4 自动驾驶及车路协同演示，本次参与演示的奥迪车辆搭载了地平线明星产品——Matrix 自动驾驶计算平台。除了搭载地平线 Matrix 自动驾驶计算平台，地平线还协同奥迪研发了基于 C-V2X 架构的自动驾驶解决方案，方案针对中国驾驶场景进行了定制视觉感知算法开发，能够让汽车更好地理解本土道路复杂场景"
+        logo: "assets/logos/奥迪.png"
+        title: "地平线Matrix赋能奥迪冬奥会乘用车编队 L4 自动驾驶及车路协同演示"
+        sub_title: "赋能成果"
+        src: "assets/clients/美图/奥迪美图2.png"
+        ppt:
+          - src: "assets/clients/合作内容/地平线Matrix赋能奥迪冬奥会乘用车编队 L4 自动驾驶及车路协同演示.jpg"
+            type: "img"
+  - key: "理想"
+    type: "oem"
+    logo: "assets/logos/理想.png"
+    children:
+      - type: "oem"
+        index: 8
+        mode: 7
+        name: "理想"
+        key: "整车客户"
+        detail: "地平线与理想在算法层面展开合作，为理想 ONE 增程式智能电动车配备“车载多音区语音交互技术”，可支持多达 4 路人声分离和 6 路音区检测，实现全车多路拾音、人声定位、降噪、回声消除和语音唤醒，打造精准的全车语音交互。基于地平线声源定位、盲源分离和降噪算法，地平线多音区方案可对不同位置乘客的语言指令进行精准区分和识别， 快速响应乘客个性化需求。"
+        logo: "assets/logos/理想.png"
+        title: "理想 ONE 搭载地平线多音区方案，实现全车语音交互"
+        sub_title: "赋能成果"
+        src: "assets/clients/美图/理想多音区.png"
+        ppt:
+          - src: "assets/clients/合作内容/理想ONE搭载地平线多音区方案.jpg"
+            type: "img"
+      - type: "oem"
+        index: 9
+        mode: 7
+        name: "理想"
+        key: "整车客户"
+        detail: "4月20日上海国际车展期间，边缘人工智能芯片领导者地平线与头部新造车企业理想汽车正式签署深度合作协议。根据协议，双方将共同打造可持续成长的智能电动车，地平线征程系列芯片将在未来向理想汽车提供极致效能、开放易用的智能驾驶和智能交互计算平台。"
+        logo: "assets/logos/理想.png"
+        title: "地平线与理想达成深度合作，打造可持续成长的智能驾驶电动车"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/理想美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/理想深度合作.jpg"
+            type: "img"
+  - key: "一汽红旗"
+    type: "oem"
+    logo: "assets/logos/一汽红旗.png"
+    children:
+      - type: "oem"
+        index: 10
+        mode: 8
+        name: "一汽红旗"
+        key: "整车客户"
+        detail: "2020年 7 月 23 日，一汽（南京）科技开发有限公司与地平线签署战略合作协议，双方在汽车人工智能、感知技术、高级辅助驾驶（ADAS）、高级别自动驾驶、智能交互、软件定义汽车等领域推动深层合作，形成全面、长期和稳定的战略合作伙伴关系。双方将共同打造“红旗·AI 芯脑”芯算一体化 AI 平台，重点围绕高级辅助驾驶（ADAS）和高级别自动驾驶方向进行深度开放合作及联合开发，服务一汽红旗车型量产。"
+        logo: "assets/logos/一汽红旗.png"
+        title: "共同打造“红旗·AI 芯脑”芯算一体化 AI 平台，服务一汽红旗车型量产"
+        sub_title: "生态合作1"
+        src: "assets/clients/美图/一汽红旗美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/一汽南京（红旗）战略合作.jpg"
+            type: "img"
+      - type: "oem"
+        index: 11
+        mode: 8
+        name: "一汽红旗"
+        key: "整车客户"
+        detail: "签署战略合作协议，双方将以高级辅助驾驶（ADAS）、高级别自动驾驶和智能座舱方向为重点，推进深入合作，共同探索智能化、网联化汽车科技，开发市场领先的智能网联汽车产品，实现共同发展。双方合作产品将率先应用于中国一汽的红旗品牌轿车。"
+        logo: "assets/logos/一汽红旗.png"
+        title: "地平线与一汽智能网联开发院达成战略合作，合力打造智能网联新引擎"
+        sub_title: "生态合作2"
+        src: "assets/clients/美图/一汽红旗美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/一汽智能网联开发院战略合作.png"
+            type: "img"
+  - key: "长城汽车"
+    type: "oem"
+    logo: "assets/logos/长城.png"
+    children:
+      - type: "oem"
+        index: 12
+        mode: 9
+        name: "长城汽车"
+        key: "整车客户"
+        detail: "长城汽车将以在智能化领域多年的技术积淀与地平线领先的汽车智能芯片、算法相结合，加速攻坚和布局自动驾驶、智能网联等智能化核心技术。同时，长城汽车与地平线签署战略合作框架协议，双方将以高级辅助驾驶（ADAS）、高级别自动驾驶和智能座舱方向为重点，共同探索汽车智能科技，开发市场领先的智能汽车产品，加速智能汽车的研发与量产落地。"
+        logo: "assets/logos/长城.png"
+        title: "地平线获长城战略投资，共同探索智能化、网联化新汽车科技"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/长城汽车美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/长城战略合作.png"
+            type: "img"
+  - key: "广汽"
+    type: "oem"
+    logo: "assets/logos/广汽资本.png"
+    children:
+      - type: "oem"
+        index: 13
+        mode: 10
+        name: "广汽"
+        key: "整车客户"
+        detail: "广汽研究院，广汽资本与地平线签署战略合作协议，并联合发布广汽版征程 3。该款芯片根据广汽集团采用的深度学习网络进行深度的软硬件联合优化，同时针对广汽量产车型的功能开发需求进行功能模块调优，使征程 3 的性能实现最大化的同时，达到系统成本最优化，计划将在未来的车型中量产搭载。"
+        logo: "assets/logos/广汽资本.png"
+        title: "广汽战略投资地平线，联合发布广汽版征程3"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/广汽美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/广汽战略投资地平线.png"
+            type: "img"
+  - key: "广汽埃安"
+    type: "oem"
+    logo: "assets/logos/广汽埃安.png"
+    children:
+      - type: "oem"
+        index: 14
+        mode: 11
+        name: "广汽埃安"
+        key: "整车客户"
+        detail: "2021年3 月，搭载地平线征程® 2 及 Halo™ 智能交互方案的广汽埃安 AION Y 正式开启预售。该车型集成智能安全提醒、情绪识别、智能抓拍等主动人机交互体验，可为用户带来更安全、更智能、更自然的人机交互新体验。"
+        logo: "assets/logos/广汽埃安.png"
+        title: "征程芯片赋能广汽埃安AION Y，搭载创新智能交互方案"
+        sub_title: "赋能成果"
+        src: "assets/chips/芯片2.png"
+        ppt:
+          - src: "assets/clients/合作内容/广汽埃安.jpg"
+            type: "img"
+  - key: "广汽传祺"
+    type: "oem"
+    logo: "assets/logos/广汽传祺.png"
+    children:
+      - type: "oem"
+        index: 15
+        mode: 12
+        name: "广汽传祺"
+        key: "整车客户"
+        detail: "广汽传祺全新车型GS4 PLUS在上海车展正式亮相，该车型搭载的广汽智能交互座舱搭载了地平线征程2汽车智能芯片。该座舱是广汽智能网联战略的技术载体，赋予座舱提前感知、主动服务、五感融合的能力，全面覆盖用户的全链路用车场景。"
+        logo: "assets/logos/广汽传祺.png"
+        title: "广汽传祺全新车型GS4 PLUS智能交互座舱搭载征程2芯片"
+        sub_title: "赋能成果"
+        src: "assets/chips/芯片2.png"
+        ppt:
+          - src: "assets/clients/合作内容/广汽传祺.png"
+            type: "img"
+  - key: "比亚迪"
+    type: "oem"
+    logo: "assets/logos/比亚迪.png"
+    children:
+      - type: "oem"
+        index: 16
+        mode: 13
+        name: "比亚迪"
+        key: "整车客户"
+        detail: "地平线与比亚迪于 3 月 2 日达成战略合作，依托比亚迪深厚的智能化技术积淀和深度的垂直整合能力，与地平线领先的汽车智能芯片及算法能力，双方将形成强强联合的矩阵，共同推进科技研发层面的纵深探索，加速攻坚和布局智能驾驶前沿技术，加速智能汽车的研发与量产落地。"
+        logo: "assets/logos/比亚迪.png"
+        title: "比亚迪战略投资地平线，布局智能驾驶前沿技术"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/比亚迪美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/战略投资(比亚迪).jpg"
+            type: "img"
+  - key: "江汽集团"
+    type: "oem"
+    logo: "assets/logos/江汽集团.png"
+    children:
+      - type: "oem"
+        index: 17
+        mode: 14
+        name: "江汽集团"
+        key: "整车客户"
+        detail: "2021年4月19日，安徽江淮汽车集团股份有限公司与地平线签署战略合作协议，共同在高级辅助驾驶ADAS和自动驾驶等方面展开重点合作，赋能新能源、传统能源以及其他定制化乘用车和商用车等产品。产品合作上，地平线将为江汽集团提供“芯片+算法+工具链”整体智能汽车方案，包括智能驾驶处理器、自动驾驶计算平台、视觉感知算法、地图众包和定位、智能座舱、数据闭环等整体解决方案，充分满足江汽集团对于智能网联汽车制造的多元化需求。"
+        logo: "assets/logos/江汽集团.png"
+        title: "地平线与江汽集团签署战略合作协议"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/江汽集团美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/江汽集团战略合作.jpg"
+            type: "img"
+      - type: "oem"
+        index: 18
+        mode: 15
+        name: "江汽集团"
+        key: "整车客户"
+        detail: "思皓QX搭载了由地平线自主研发的中国首款车规级AI芯片征程®2，深度融合视觉、语音等多种感知数据，实现领先同级的智能座舱交互和高级辅助驾驶功能，支持实现APA（全自动泊车）、TJA（交通拥堵辅助）等15项L2+级别多场景ADAS智能驾驶功能，并且能够通过智能语音与车辆精准“交流”，理解丰富的自然语音指令，成为同级别“高情商”SUV的代表。"
+        logo: "assets/logos/江汽集团.png"
+        title: "首款合作车型——全新A+级运动SUV思皓QX正式发布"
+        sub_title: "赋能成果"
+        src: "assets/chips/芯片2.png"
+        ppt:
+          - src: "assets/clients/合作内容/江汽集团战略合作.jpg"
+            type: "img"
+  - key: "岚图"
+    type: "oem"
+    logo: "assets/logos/岚图.png"
+    children:
+      - type: "oem"
+        index: 19
+        mode: 16
+        name: "岚图"
+        key: "整车客户"
+        detail: "东风岚图首款车型岚图Free正式登陆2021上海国际车展，该车型搭载了基于地平线征程2芯片打造的红外夜视ADAS功能。"
+        logo: "assets/logos/岚图.png"
+        title: "地平线征程2赋能岚图 Free ADAS落地量产"
+        sub_title: "赋能成果"
+        src: "assets/chips/芯片2.png"
+        ppt:
+          - src: "assets/clients/合作内容/岚图FREE.png"
+            type: "img"
+  - key: "奇瑞"
+    type: "oem"
+    logo: "assets/logos/奇瑞.png"
+    children:
+      - type: "oem"
+        index: 20
+        mode: 17
+        name: "奇瑞"
+        key: "整车客户"
+        detail: "2020年9 月 22 日，备受行业及消费者关注的 A 级纯电 SUV——奇瑞新能源蚂蚁正式上市，奇瑞蚂蚁集成了地平线和英博超算联合开发的智能驾驶解决方案，搭载中国首款车规级 AI 芯片地平线征程 2，实现了 L2+ 级自动驾驶。"
+        logo: "assets/logos/奇瑞.png"
+        title: "地平线征程2加速前装量产，赋能奇瑞蚂蚁实现L2+级自动驾驶"
+        sub_title: "赋能成果"
+        src: "assets/chips/芯片2.png"
+        ppt:
+          - src: "assets/clients/合作内容/赋能奇瑞蚂蚁.jpg"
+            type: "img"
+  - key: "嬴彻科技"
+    type: "oem"
+    logo: "assets/logos/嬴彻科技.png"
+    children:
+      - type: "oem"
+        index: 21
+        mode: 18
+        name: "嬴彻科技"
+        key: "整车客户"
+        detail: "9 月 24 日，地平线正式加入由嬴彻科技和上海国际汽车城汽车·创新港联合发起的“干线物流联合创新中心”，宣布与嬴彻科技就自动驾驶卡车前装量产达成战略合作。地平线将开放自身“芯片+算法”的底层 AI 能力，助力嬴彻科技自动驾驶卡车顺利开发并量产，此次合作也意味着地平线在自动驾驶货运领域正式开启商业化新征程。"
+        logo: "assets/logos/赢彻科技.png"
+        title: "地平线牵手嬴彻科技，共建自动驾驶货运生态"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/赢彻科技美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/赢彻科技战略合作.jpg"
+            type: "img"
+      - type: "oem"
+        index: 22
+        mode: 19
+        name: "嬴彻科技"
+        key: "整车客户"
+        detail: "地平线与自动驾驶卡车技术与运营公司嬴彻科技达成前装量产定点合作。地平线征程 3 车载 AI 芯片应用于嬴彻科技自主研发的自动驾驶系统，面向 L3 级别自动驾驶卡车商业落地，将于 2021 年底实现量产。"
+        logo: "assets/logos/嬴彻科技.png"
+        title: "前装量产定点合作，面向 L3 级别自动驾驶卡车商业落地"
+        sub_title: "赋能成果"
+        src: "assets/chips/芯片3.png"
+        ppt:
+          - src: "assets/clients/合作内容/赢彻科技战略合作.jpg"
+            type: "img"
+  - key: "中汽创智"
+    type: "tier"
+    logo: "assets/logos/中汽创智.png"
+    children:
+      - type: "tier"
+        index: 23
+        mode: 20
+        name: "中汽创智"
+        key: "产业合作伙伴"
+        detail: "2020年7 月 17 日，中汽创智和地平线签署战略合作协议，双方将在汽车智能化和智能网联领域开展深入合作，共同探索和开发市场领先的智能化、网联化汽车科技和产品，拉动国内汽车行业共性技术发展，加速构建超级智能新能源技术平台，共创汽车智能未来。"
+        logo: "assets/logos/中汽创智.png"
+        title: "加速构建超级智能新能源技术平台，共创汽车智能未来"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/中汽创智美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/中汽创智战略合作.png"
+            type: "img"
+  - key: "大陆集团"
+    type: "tier"
+    logo: "assets/logos/大陆集团.png"
+    children:
+      - type: "tier"
+        index: 24
+        mode: 21
+        name: "大陆集团"
+        key: "产业合作伙伴"
+        detail: "地平线与大陆集团正式签署合作备忘录，双方将以中国市场为重点，在高级驾驶员辅助系统（ADAS）和高等级自动驾驶领域展开深度合作。地平线将发挥在车规级 AI 芯片和人工智能算法方面的核心优势，助力大陆集团打造具有创新性和领先性的智能驾驶解决方案，共同助推全球汽车产业创新突破，迎接智能汽车时代的到来。"
+        logo: "assets/logos/大陆集团.png"
+        title: "地平线与大陆集团签署合作备忘录，加速智能驾驶应用量产落地"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/大陆集团美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/大陆集团合作备忘录.jpg"
+            type: "img"
+          - src: "assets/clients/合作内容/大陆集团/幻灯片1.png"
+            type: "img"
+          - src: "assets/clients/合作内容/大陆集团/幻灯片2.png"
+            type: "img"
+          - src: "assets/clients/合作内容/大陆集团/幻灯片3.png"
+            type: "img"
+          - src: "assets/clients/合作内容/大陆集团/幻灯片4.png"
+            type: "img"
+          - src: "assets/clients/合作内容/大陆集团/幻灯片5.png"
+            type: "img"
+          - src: "assets/clients/合作内容/大陆集团/幻灯片6.png"
+            type: "img"
+  - key: "佛吉亚"
+    type: "tier"
+    logo: "assets/logos/佛吉亚.png"
+    children:
+      - type: "tier"
+        index: 25
+        mode: 22
+        name: "佛吉亚"
+        key: "产业合作伙伴"
+        detail: "全球领先的人工智能芯片及解决方案提供商地平线，与世界领先的汽车零部件科技公司佛吉亚于 2020年1 月 7 日在CES期间签署战略合作协议。双方将共同开发多模态感知 Al 解决方案，在智能座舱系统和高级驾驶辅助系统(ADAS)等领域展开深入合作，旨在通过整合资源来增强产品能力和市场影响力，共同打造高品质、高性价比、面向规模量产的产品和方案。"
+        logo: "assets/logos/佛吉亚.png"
+        title: "地平线携手佛吉亚，共同推动智能驾驶全球量产落地"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/佛吉亚美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/佛吉亚.jpg"
+            type: "img"
+  - key: "Freetech"
+    type: "tier"
+    logo: "assets/logos/Freetech.png"
+    children:
+      - type: "tier"
+        index: 26
+        mode: 23
+        name: "Freetech"
+        key: "产业合作伙伴"
+        detail: "双方将研发技术力量聚焦于高级辅助驾驶系统（ADAS）以及自动驾驶解决方案领域的合作，携手为智能驾驶在中国市场的发展打下坚实的基础。合作双方将共同努力，致力于为中国主机厂提供可量产的 ADAS 产品。"
+        logo: "assets/logos/Freetech.png"
+        title: "助力国产 ADAS 突围，地平线与福瑞泰克达成前装量产合作"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/Freetech美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/福瑞泰克战略合作.jpg"
+            type: "img"
+      - type: "tier"
+        index: 27
+        mode: 24
+        name: "Freetech"
+        key: "产业合作伙伴"
+        detail: "2021年4月19日(上海) —中国领先的智能驾驶企业福瑞泰克与边缘AI芯片全球领导者地平线在2021上海车展联合发布搭载地平线征程2芯片的福瑞泰克新一代ADAS前视解决方案，代表“智能驾驶中国力量”的双方在L2+级别自动驾驶系统前装量产领域强强联手，未来将大幅推动中国汽车行业智能化进程加速，助力中国智能汽车为消费者提供更安全、更智能的驾乘体验。目前，福瑞泰克新一代ADAS前视解决方案已定点包括长安、五菱、一汽等行业头部车企在内的热销车型，并计划于今年下半年规模化量产。"
+        logo: "assets/logos/Freetech.png"
+        title: "福瑞泰克联手地平线发布新一代ADAS解决方案 智能驾驶“国潮来袭”"
+        sub_title: "赋能成果"
+        src: "assets/clients/美图/Freetech美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/福瑞泰克产品.jpg"
+            type: "img"
+  - key: "豪威集团"
+    type: "tier"
+    logo: "assets/logos/豪威集团.png"
+    children:
+      - type: "tier"
+        index: 28
+        mode: 25
+        name: "豪威集团"
+        key: "产业合作伙伴"
+        detail: "双方将合作为行业提供面向智能座舱域和智能驾驶域的完整视觉解决方案，赋能主机厂打造差异化优势，助力中国汽车智能化步伐加速迈进。目前，双方面向智能座舱域合作打造的视觉解决方案已在中国顶尖主机厂的量产车型上实现落地应用，后续还将开发更多的搭配方案；在智能驾驶领域，双方也正展开密切合作，推动双方的高级辅助驾驶（ADAS）合作成果尽快商用。"
+        logo: "assets/logos/豪威集团.png"
+        title: "提供完整视觉解决方案，赋能主机厂打造差异化优势"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/豪威集团美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/豪威集团战略合作.jpg"
+            type: "img"
+  - key: "禾赛科技"
+    type: "tier"
+    logo: "assets/logos/禾赛科技.png"
+    children:
+      - type: "tier"
+        index: 29
+        mode: 26
+        name: "禾赛科技"
+        key: "产业合作伙伴"
+        detail: "禾赛科技提供全球顶级的激光雷达传感器，加上地平线强大的计算平台以及感知计算的能力，能够实现1+1>2的效果，为行业提供高性能的激光雷达感知方案，共同推动高级别自动驾驶的研发和应用落地。"
+        logo: "assets/logos/禾赛科技.png"
+        title: "高性能的激光雷达感知方案，共同推动高级别自动驾驶的研发和应用落地"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/禾赛科技美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/禾赛战略合作.jpg"
+            type: "img"
+  - key: "首汽约车"
+    type: "tier"
+    logo: "assets/logos/首汽约车.png"
+    children:
+      - type: "tier"
+        index: 30
+        mode: 27
+        name: "首汽约车"
+        key: "产业合作伙伴"
+        detail: "地平线将通过联合行业合作伙伴，为首汽约车的运营车辆提供智能车载终端，用地平线的AI芯片和针对网约车行业定制化开发的算法技术，将传统后视镜改造成具备高级驾驶辅助（ADAS）和驾驶员行为分析（DMS）、人脸识别、语音识别等AI能力的智能车载设备，包含车道偏离预警、前车碰撞预警、车内人脸识别、疲劳监测、抽烟、打电话等危险驾驶行为检测等功能。"
+        logo: "assets/logos/首汽约车.png"
+        title: "地平线与首汽约车达成战略合作，用AI赋能网约车出行"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/首汽约车美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/首汽约车.jpg"
+            type: "img"
+  - key: "Deepmap"
+    type: "tier"
+    logo: "assets/logos/SK Telecom.png"
+    children:
+      - type: "tier"
+        index: 31
+        mode: 28
+        name: "Deepmap"
+        key: "产业合作伙伴"
+        detail: "双方将研发技术力量聚焦于自动驾驶解决方案领域的合作，携手为智能驾驶在中国市场的发展打下坚实的基础。合作双方将共同努力，致力于为中国主机厂提供更安全可靠、可量产的自动驾驶解决方案产品。"
+        logo: "assets/logos/Deepmap.png"
+        title: "聚焦于自动驾驶解决方案领域合作，提供安全可靠的产品"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/Deepmap美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/deepmap.png"
+            type: "img"
+      - type: "tier"
+        index: 32
+        mode: 29
+        name: "Deepmap"
+        key: "产业合作伙伴"
+        detail: "2019 年初，地平线和 SK电讯在美国CES签署了战略合作协议，宣布将在高精度地图更新和自动驾驶领域开展合作。地平线和SK电讯联合展出的众包高精地图更新方案现已在韩国进行大规模部署。"
+        logo: "assets/logos/SK Telecom.png"
+        title: "SK电讯众包高精地图更新方案在韩国大规模部署"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/SK Telecom美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/SK.jpg"
+            type: "img"
+  - key: "高新兴"
+    type: "tier"
+    logo: "assets/logos/高新兴.png"
+    children:
+      - type: "tier"
+        index: 33
+        mode: 30
+        name: "高新兴"
+        key: "产业合作伙伴"
+        detail: "2019年6月27日，MWC世界移动大会（上海）期间，地平线与高新兴宣布达成战略合作。作为全球人工智能合作伙伴，双方将共同推进基于5G/V2X + 人工智能的高级驾驶辅助系统（ADAS）、驾驶员行为监测（DMS）、人工智能驾驶舱、自动驾驶等方向的技术研究、产品研发以及市场推广。"
+        logo: "assets/logos/高新兴.png"
+        title: "地平线携手高新兴助力汽车智能化升级"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/高新兴美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/高新兴战略合作.jpg"
+            type: "img"
+  - key: "英博超算"
+    type: "tier"
+    logo: "assets/logos/英博超算.png"
+    children:
+      - type: "tier"
+        index: 34
+        mode: 31
+        name: "英博超算"
+        key: "产业合作伙伴"
+        detail: "地平线与英博超算签署战略合作协议，双方将在产品、技术层面开展深度合作，共同开发智能驾驶 AI 解决方案，携手加速智能驾驶在中国市场的落地。"
+        logo: "assets/logos/英博超算.png"
+        title: "地平与英博超算签署战略合作协议"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/英博超算美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/英博超算战略签约.jpg"
+            type: "img"
+  - key: "易图通"
+    type: "tier"
+    logo: "assets/logos/易图通.png"
+    children:
+      - type: "tier"
+        index: 35
+        mode: 32
+        name: "易图通"
+        key: "产业合作伙伴"
+        detail: "双方将在高精地图领域深化合作，面向高级别自动驾驶的高精度定位需求，为行业提供安全可靠、可量产的车载视觉高精度定位解决方案。易图通和地平线合作，将基于地平线高效能的车规级 AI 芯片和易图通专业的高精地图，共同研发软硬结合的高精度融合定位解决方案，赋能 Tier1 和 OEM 等客户通过高精地图实现智能驾驶功能提升。"
+        logo: "assets/logos/易图通.png"
+        title: "车载视觉高精度定位解决方案"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/易图通美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/易图通.jpg"
+            type: "img"
+  - key: "新石器"
+    type: "tier"
+    logo: "assets/logos/新石器.png"
+    children:
+      - type: "tier"
+        index: 36
+        mode: 33
+        name: "新石器"
+        key: "产业合作伙伴"
+        detail: "2020年8 月 6 日，地平线与 AI 无人车研发智造运营领军企业新石器宣布达成战略合作，双方将面向低速自动驾驶场景开展深度合作，加速无人车的应用落地和规模化运营。搭载地平线征程 2 芯片和感知算法的新石器无人车即将量产。此次合作标志着地平线正式在无人车领域开启商业化新征程，也印证了地平线车规级 AI 芯片征程 2 正沿着量产落地之路阔步前行。"
+        logo: "assets/logos/新石器.png"
+        title: "加速无人车的应用落地和规模化运营"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/新石器美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/新石器无人车.jpg"
+            type: "img"
+  - key: "北斗智联"
+    type: "tier"
+    logo: "assets/logos/北斗智联.png"
+    children:
+      - type: "tier"
+        index: 37
+        mode: 34
+        name: "北斗智联"
+        key: "产业合作伙伴"
+        detail: "地平线和北斗智联签署战略合作协议，双方将在智能座舱和智能驾驶领域推进深入合作，深度布局汽车智能化产品和技术方阵，为汽车行业提供高集成度、高性能、高扩展性的智能座舱和智能驾驶解决方案。"
+        logo: "assets/logos/北斗智联.png"
+        title: "高集成度、高性能、高扩展性的智能座舱和智能驾驶解决方案"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/北斗智联美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/北斗智联战略合作.jpg"
+            type: "img"
+  - key: "追势科技"
+    type: "tier"
+    logo: "assets/logos/追势科技.png"
+    children:
+      - type: "tier"
+        index: 38
+        mode: 35
+        name: "追势科技"
+        key: "产业合作伙伴"
+        detail: "双方将在智能泊车产品开发领域展开深入合作，共同探索和开发市场领先的自动泊车和低速自动驾驶产品，进一步推进智能泊车产品量产进程。"
+        logo: "assets/logos/追势科技.png"
+        title: "推进智能泊车产品量产进程"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/追势科技美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/追势战略合作.jpg"
+            type: "img"
+  - key: "大唐移动"
+    type: "tier"
+    logo: "assets/logos/大唐移动.png"
+    children:
+      - type: "tier"
+        index: 39
+        mode: 36
+        name: "大唐移动"
+        key: "产业合作伙伴"
+        detail: "双方将建立 5G+AI 联合实验室，共同组建技术研发团队，面向车路协同应用开发市场领先的智能网联解决方案。根据协议，地平线和大唐移动将依托各自优势，共同探索人工智能在 5G 边缘计算与垂直行业相结合的前沿技术；通过跨领域技术融合，共同开发市场领先的智能产品，打造国内领先的 5G 人工智能解决方案，并积极联合推动量产落地。"
+        logo: "assets/logos/大唐移动.png"
+        title: "5G+AI，面向车路协同应用的智能网联解决方案"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/大唐移动美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/大唐移动战略合作.jpg"
+            type: "img"
+  - key: "博泰车联网"
+    type: "tier"
+    logo: "assets/logos/博泰车联网.png"
+    children:
+      - type: "tier"
+        index: 40
+        mode: 37
+        name: "博泰车联网"
+        key: "产业合作伙伴"
+        detail: "面向汽车市场的智能化需求，以智能座舱为重点，就智能网联业务进行深度合作，赋能主机厂实现差异化优势，并成立联合实验室，研发地平线征程 AI 芯片兼容座舱平台，共同打造面向未来的国产化平台级领先产品，并迅速落地产品。"
+        logo: "assets/logos/博泰车联网.png"
+        title: "以智能座舱为重点，共同打造面临未来的国产化平台级领先产品"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/博泰车联网美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/博泰车联网战略合作.jpg"
+            type: "img"
+  - key: "斑马智行"
+    type: "tier"
+    logo: "assets/logos/斑马智行.png"
+    children:
+      - type: "tier"
+        index: 41
+        mode: 38
+        name: "斑马智行"
+        key: "产业合作伙伴"
+        detail: "地平线与斑马智行宣布组建智能计算联合创新中心并举行揭牌仪式。双方将共建AI开放平台，共同推动“AI+OS+芯片”整体解决方案落地，打造面向未来的智能座舱产品。地平线和斑马将基于各自在 AI 芯片、算法、操作系统、工具体系等领域的产品技术能力，联合创新、共同建设面向智能汽车产品的AI开放平台，为达成智能驾驶领域极具竞争力的软硬一体智能场景解决方案平台和产品开发体系提供便利，致力于加速座舱多模交互产品的场景定义和量产落地。"
+        logo: "assets/logos/斑马智行.png"
+        title: "共同推动“AI+OS+芯片”整体解决方案落地，打造面向未来的智能座舱产品"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/斑马智行美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/斑马.jpg"
+            type: "img"
+  - key: "域驰智能"
+    type: "tier"
+    logo: "assets/logos/域驰智能.png"
+    children:
+      - type: "tier"
+        index: 42
+        mode: 39
+        name: "域驰智能"
+        key: "产业合作伙伴"
+        detail: "4月8日，地平线与智能驾驶科技公司域驰智能、宏景智驾正式签署战略合作协议。双方将充分结合各自产品、技术优势，共同推动 L2～L4 级智能驾驶产品研发与应用。地平线将基于征程系列芯片和智能驾驶解决方案提供助力，域驰智能将充分发挥在智能驾驶产品设计、应用和推广方面的优势，双方瞄准汽车产业智能化、网联化发展机遇，共筑交通出行革新力量。"
+        logo: "assets/logos/域驰智能.png"
+        title: "地平线与域驰智能签署战略合作协议，共同推动 L2～L4 级智能驾驶产品研发与应用"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/域驰智能美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/域驰战略合作.png"
+            type: "img"
+  - key: "亚太"
+    type: "tier"
+    logo: "assets/logos/亚太.png"
+    children:
+      - type: "tier"
+        index: 43
+        mode: 40
+        name: "亚太"
+        key: "产业合作伙伴"
+        detail: "2021年4月19日上海国际车展首日，浙江亚太机电股份有限公司与地平线签署战略合作协议。亚太股份董事长黄伟中、副总经理施正堂，地平线创始人兼CEO余凯、首席生态官徐健、副总裁兼智能驾驶产品线总经理张玉峰、副总裁兼智能驾驶环境感知产品总经理余轶南等领导出席签约仪式。"
+        logo: "assets/logos/亚太.png"
+        title: "亚太股份与地平线签署战略合作协议 共推汽车产业智能化转型"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/亚太美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/亚太股份.jpg"
+            type: "img"
+  - key: "华阳"
+    type: "tier"
+    logo: "assets/logos/华阳.png"
+    children:
+      - type: "tier"
+        index: 44
+        mode: 41
+        name: "华阳"
+        key: "产业合作伙伴"
+        detail: "4月19日，2021上海国际汽车工业展览会在国家会展中心（上海）如期举行，ADAYO华阳携众多新产品、新技术亮相展会。展会现场，ADAYO华阳与汽车智能芯片引领者地平线（Horizon Robotics）签署战略合作协议，正式宣告双方达成长期共赢的战略合作。"
+        logo: "assets/logos/华阳.png"
+        title: "ADAYO华阳与地平线达成战略合作，助力智能网联汽车发展"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/华阳美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/华阳集团.jpg"
+            type: "img"
+  - key: "德赛西威"
+    type: "tier"
+    logo: "assets/logos/德赛西威（DESAY SV）.png"
+    children:
+      - type: "tier"
+        index: 45
+        mode: 42
+        name: "德赛西威"
+        key: "产业合作伙伴"
+        detail: "4月20日上海国际车展期间，地平线与德赛西威正式签署战略合作协议。根据协议，双方将依托各自优势，重点围绕智能座舱领域进行研发和技术深度合作，推动智能汽车技术创新应用。在签约仪式上，双方基于地平线征程2汽车智能芯片共同研发的智能座舱正式亮相，并即将实现量产上车。"
+        logo: "assets/logos/德赛西威（DESAY SV）.png"
+        title: "德赛西威与地平线达成战略合作，共推智能汽车技术创新应用"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/德赛西威美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/德赛西威战略合作.jpg"
+            type: "img"
+  - key: "东软睿驰"
+    type: "tier"
+    logo: "assets/logos/东软睿驰.png"
+    children:
+      - type: "tier"
+        index: 46
+        mode: 43
+        name: "东软睿驰"
+        key: "产业合作伙伴"
+        detail: "4月19日上海国际车展期间，地平线与东软睿驰汽车技术（上海）有限公司（以下简称东软睿驰）。根据协议，双方依托各自在汽车智能芯片以及软件领域的核心优势，共同探索汽车智能化前沿技术。双方将基于地平线征程2芯片推动高级辅助驾驶（ADAS）的量产落地，未来还将基于征程后续芯片共同探索自动驾驶计算平台的研发应用。"
+        logo: "assets/logos/东软睿驰.png"
+        title: "东软睿驰与地平线签署战略合作协议， “软硬结合”助推智能驾驶商业落地"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/东软睿驰美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/东软睿驰.jpg"
+            type: "img"
+  - key: "舜宇智领"
+    type: "tier"
+    logo: "assets/logos/舜宇智领.png"
+    children:
+      - type: "tier"
+        index: 47
+        mode: 44
+        name: "舜宇智领"
+        key: "产业合作伙伴"
+        detail: "双方将以高级辅助驾驶（ADAS）、自动驾驶和智能座舱方向为重点，共同探索汽车智能科技，为汽车行业提供高可靠性的完整视觉解决方案，助力主机厂打造差异化优势，加速智能汽车的产品研发与量产落地。"
+        logo: "assets/logos/舜宇智领.png"
+        title: "舜宇集团战略投资，地平线与舜宇智领签署战略合作协议"
+        sub_title: "生态合作"
+        src: "assets/clients/美图/舜宇智领美图.png"
+        ppt:
+          - src: "assets/clients/合作内容/舜宇战略合作.png"
+            type: "img"
+
+
